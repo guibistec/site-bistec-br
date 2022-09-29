@@ -24,3 +24,11 @@ Route::get('/suporte', function () {
 Route::get('/contato', function () {
     return view('contato');
 });
+
+Route::get('/produtos/automacao', function () {
+    return view('produtos/automacao');
+});
+
+Route::get('/produtos/cloud', function () {
+    return view('produtos/cloud');
+});

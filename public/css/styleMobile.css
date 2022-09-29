@@ -116,26 +116,10 @@
     
     /* banner */
 
-   /*PROVISÓRIO PARA CORREÇÃO DE DUPLICIDADE DE IMAGENS NAS OUTRAS PÁGINAS*/
-    .banner-bistec {
-        display: none;
-    }
+    /* .banner-bistec {
+        display: inherit;
+    } */
     /*para ignorar a index, provisório tbm*/
-    #imagemUnica{
-        display: block;
-    }
-    .banner-bistec-mobile {
-        display: block;
-        width: auto;
-        margin: auto;
-        position: relative;
-    }
-
-    .banner-bistec-mobile img{
-        width: 100%;
-        height: 85vh;
-        margin-top: 75px;
-    }
 
     .banner-bistec-texto {
         transform: translate(-45%, -50%);
