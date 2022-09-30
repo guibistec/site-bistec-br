@@ -31,4 +31,4 @@ jobs:
           forge server:switch your-server-name
           forge deploy your-site-name.com
         env:
-          FORGE_API_TOKEN: ${{ secrets.FORGE_API_TOKEN }}
+          FORGE_API_TOKEN: teste
