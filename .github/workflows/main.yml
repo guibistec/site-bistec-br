@@ -1,34 +1,20 @@
-name: Build and Deploy
-on:
+on: 
   push:
     branches:
-      -   teste
-
+      main
+name: Deploy com push na main
 jobs:
-  deploy:
+  web-deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      checkout@v2
-      - name: Setup FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: ${{ secrets.ftp_host }}
-          username: ${{ secrets.ftp_user }}
-          password: ${{ secrets.ftp_password }}
-          server-dir: testesitebr.bistec.com.pt/teste/
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.0
-          tools: composer:v2
-          coverage: none
-      - name: Require Forge CLI
-        run: composer global require laravel/forge-cli
-      - name: Deploy Site
-        run: |
-          forge server:switch your-server-name
-          forge deploy your-site-name.com
-        env:
-          FORGE_API_TOKEN: teste
+    - name: Ultiliza último código
+      uses: actions/checkout@v2
+    
+    - name: Sincroniza arquivos
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        server-dir: testesitebr.bistec.com.pt/teste/
