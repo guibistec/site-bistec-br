@@ -2,19 +2,19 @@ on:
   push:
     branches:
       teste
-name: Deploy com push na main
+name: teste1
 jobs:
   web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Ultiliza último código
+    - name: teste2
       uses: actions/checkout@v2
     
-    - name: Sincroniza arquivos
+    - name: teste3
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        server-dir: public_html/testando/
+        server-dir: testesitebr.bistec.com.pt/outroteste/
