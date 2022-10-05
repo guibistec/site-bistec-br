@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.HOST_IP }}
         username: ${{ secrets.HOST_NAME }}
         password: ${{ secrets.HOST_PASSWD }}
-        server-dir: public_html/testando/
+        server-dir: public_html/outroteste/
