@@ -134,7 +134,7 @@
     <div class="footer-copyright">
         <p>©2022 Bistec · Consultoria de TI · Todos os direitos reservados.</p>
     </div>
-    <script src="/js/main.js" defer async></script>
+    <script src="./js/main.js" defer async></script>
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
     <!-- <script src="//code.jivosite.com/widget/3bZuUHkWaM" async></script> -->
 </body>
