@@ -37,10 +37,10 @@
         </a>
         <ul class="normal-menu">
             <li>
-                <a href="/" class="normal" >HOME</a>
+                <a href="./" class="normal" >HOME</a>
             </li>
             <li>
-                <a href="/contato" class="normal" >CONTACTO</a>
+                <a href="./contato" class="normal" >CONTACTO</a>
             </li>
             <li>
                 <a href="#" class="normal">PORTEFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
@@ -65,7 +65,7 @@
                 </a>
             </li>
             <li>
-                <a href="/suporte">
+                <a href="./suporte">
                     <div class="button_support">
                         <span class="button_icon support_icon"><ion-icon name="headset-outline"></ion-icon></span>
                         <span class="button_text">SUPORTE</span>
