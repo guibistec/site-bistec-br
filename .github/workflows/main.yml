@@ -1,8 +1,8 @@
 on: 
   push:
     branches:
-      main
-name: Deploy com push na main
+      teste
+name: Deploy com push na teste
 jobs:
   web-deploy:
     name: Deploy
