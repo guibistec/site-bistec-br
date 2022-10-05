@@ -1,32 +1,20 @@
-name: Laravel Rsync Deploy
-
-on:
+on: 
   push:
     branches:
-      - teste
-
+      main
+name: Deploy com push na main
 jobs:
-  laravel-rsync-deploy:
+  web-deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: MilesChou/composer-action/8.1/install@master
-      - run: |
-          cp .env.example .env
-          php artisan key:generate --ansi
-
-      - name: Pull Docker image
-        run: |
-          docker pull "node:lts-slim"
-          npm install && npm run production
-
-      - name: Laravel Rsync Deploy
-        uses: SHSharkar/Laravel-Rsync-Deploy@master
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
-          ARGS: "--ignore-times --compress --verbose --exclude=.git --exclude=.github --exclude=node_modules --no-perms --no-owner --no-group --recursive"
-          REMOTE_HOST: ${{ secrets.HOST_IP }}
-          REMOTE_HOST_PORT: ${{ secrets.HOST_PORT }}
-          REMOTE_USER: ${{ secrets.HOST_NAME }}
-          TARGET_DIRECTORY: public_html/testando/
+    - name: Ultiliza último código
+      uses: actions/checkout@v2
+    
+    - name: Sincroniza arquivos
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.HOST_IP }}
+        username: ${{ secrets.HOST_NAME }}
+        password: ${{ secrets.HOST_PASSWD }}
+        server-dir: public_html/testando/
