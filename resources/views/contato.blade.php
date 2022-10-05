@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('style')
-    <link rel="stylesheet" href="/css/styleContato.css">
+    <link rel="stylesheet" href="./css/styleContato.css">
 @stop
 
 @section('corpo')
