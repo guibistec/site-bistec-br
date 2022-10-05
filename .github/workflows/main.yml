@@ -1,20 +1,10 @@
-on: 
-  push:
-    branches:
-      teste
-name: teste1
+name: Tests
+on: [push]
+
 jobs:
-  web-deploy:
-    name: Deploy
+  phpunit:
+    name: PHPUnit
     runs-on: ubuntu-latest
     steps:
-    - name: teste2
-      uses: actions/checkout@v2
-    
-    - name: teste3
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ${{ secrets.ftp_host }}
-        username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
-        server-dir: testesitebr.bistec.com.pt/outroteste/
+    - uses: actions/checkout@v1
+    - uses: nathanheffley/laravel-phpunit-action@master
