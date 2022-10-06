@@ -6,8 +6,8 @@
         <section class="banner-bistec" id="imagemUnica">
             <img id="img-banner" src="https://ik.imagekit.io/bistecpt/imagens/banner-moliceiro_lQJqvFZuv.png" alt="Imagem de fundo com o moliceiro da cidade de Aveiro" width="1000" height="1000">
             <div class="banner-bistec-texto">
-                <h1>Bistec Portugal</h1>
-                <h2>Serviços em tecnologia para todas as empresas</h2>
+                <h1>Bistec Brasil</h1>
+                <h2>Tecnologia para empresas de todos os tamanhos</h2>
             </div>
         </section>
 

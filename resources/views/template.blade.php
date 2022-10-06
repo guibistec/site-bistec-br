@@ -57,7 +57,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="https://www.cupomfiscaleletronico.com.br/" target="_blank">
                     <button class="button">
                         <span class="button_icon"><ion-icon name="cart-outline"></ion-icon></span>
                         <span class="button_text">LOJA</span>
@@ -102,6 +102,14 @@
             </div>
 
             <div class="contact item2">
+                <a href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank">
+                <img src="https://ik.imagekit.io/bistecpt/imagens/whatsapp_qW0AZyxp4j.png" alt="Logo Whatsapp Business" width="20" height="20"> Whatsapp Business</a>
+                <p>
+                    <a href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank">+55 (13) 99210-1945</a>
+                </p>
+            </div> 
+
+            <div class="contact item3">
                 <a href="https://bistec.com.br">
                     <img src="https://ik.imagekit.io/bistecpt/imagens/brazil_WcP0w91cK.png" alt="Brasil País" width="20" height="20"> Bistec Brasil 
                 </a>  
@@ -112,23 +120,15 @@
                     <a href="tel:+55(13)3522-8184">+55 (13) 3522-8184</a>
                 </p>                    
             </div>
-
-            <div class="contact item3">
-                <a href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank">
-                <img src="https://ik.imagekit.io/bistecpt/imagens/whatsapp_qW0AZyxp4j.png" alt="Logo Whatsapp Business" width="20" height="20"> Whatsapp Business</a>
-                <p>
-                    <a href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank">+55 (13) 99210-1945</a>
-                </p>
-            </div> 
-            <!--
+            
             <div class="contact item4">
                 <p>
-                    <img src="https://ik.imagekit.io/bistecpt/imagens/clock_bnfCtvwxt.png" alt="Logo Horário"> Funcionamento 
+                    <img src="https://ik.imagekit.io/bistecpt/imagens/clock.png" alt="Logo Horário"> Funcionamento 
                 </p> 
                 <p>Segunda à Sexta:</p> 
-                <p>Horário a ser definido</p>
+                <p>08:15h - 18:00h</p>
             </div> 
-            -->
+           
         </div>
     </footer>
     <div class="footer-copyright">
