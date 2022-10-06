@@ -3,7 +3,11 @@ name: Laravel Rsync Deploy
 on:
   push:
     branches:
+<<<<<<< HEAD
       - teste
+=======
+      - main
+>>>>>>> teste-vercel
 
 jobs:
   laravel-rsync-deploy:

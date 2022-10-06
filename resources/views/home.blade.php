@@ -19,7 +19,7 @@
                     <h2>Troque a anotação pela automação</h2>
                     <h3>Facilite a sua gestão e o consumo dos seus clientes. Automatize!</h3>
 
-                    <a href="/produtos/automacao" class="button_text bt-dialog">Saiba Mais · Bistec Automação</a>     
+                    <a href="./produtos/automacao" class="button_text bt-dialog">Saiba Mais · Bistec Automação</a>     
                 </div>
         </section>
 
@@ -30,7 +30,7 @@
                     <h2>Backup corporativo na nuvem</h2>
                     <h3>Guarde o que é importante com segurança, sem ocupar espaço algum!</h3>
 
-                    <a href="/produtos/cloud" class="button_text bt-dialog">Saiba Mais · Bistec Cloud</a>
+                    <a href="./produtos/cloud" class="button_text bt-dialog">Saiba Mais · Bistec Cloud</a>
                 </div>
         </section>
 
@@ -40,7 +40,7 @@
                 <div class="texto-produtos">
                     <h2>Treinamentos: use a tecnologia com capacidade máxima.</h2>
                     <h3>Faça o treinamento com toda a sua equipe e explore 100% da capacidade das soluções adquiridas.</h3>
-                    <a href="/produtos/edu" class="button_text bt-dialog">Saiba Mais · Bistec Edu</a>
+                    <a href="./produtos/edu" class="button_text bt-dialog">Saiba Mais · Bistec Edu</a>
                 </div>
         </section>
 
@@ -53,7 +53,7 @@
                         A Bistec atua utilizando ferramentas gerenciais para analisar em tempo real o que esta acontecendo com seu sistemas.
                     </h3>
                     
-                    <a href="/produtos/msp" class="button_text bt-dialog">Saiba Mais · Bistec MSP</a>
+                    <a href="./produtos/msp" class="button_text bt-dialog">Saiba Mais · Bistec MSP</a>
 
                 </div>
         </section>
@@ -65,7 +65,7 @@
                     <h2>Contrate outsourcing de TI</h2><p>
                     <h3>Contrate técnicos preparados para cuidar de sua empresa.</h3>
                     
-                    <a href="/produtos/outsourcing" class="button_text bt-dialog">Saiba Mais · Bistec Outsourcing</a>
+                    <a href="./produtos/outsourcing" class="button_text bt-dialog">Saiba Mais · Bistec Outsourcing</a>
                 </div>
         </section>
 
@@ -76,7 +76,7 @@
                     <h2>Renting de TI</h2>
                     <h3>Faça a locação de equipamentos, e mantenha a liquidez de sua empresa</h3>
                     
-                    <a href="/produtos/renting" class="button_text bt-dialog">Saiba Mais · Bistec Renting</a>
+                    <a href="./produtos/renting" class="button_text bt-dialog">Saiba Mais · Bistec Renting</a>
                 </div>
         </section>
 
@@ -89,7 +89,7 @@
                     Estar preparado para cumprir o Regulamento Geral de Proteção de Dados e proteger contra multas e fugas de informações de terceiros
                 </h3>
                 
-                <a href="/produtos/rgpd" class="button_text bt-dialog">Saiba Mais · Bistec RGPD</a>
+                <a href="./produtos/rgpd" class="button_text bt-dialog">Saiba Mais · Bistec RGPD</a>
             </div>
         </section>
 
@@ -100,7 +100,7 @@
                     <h2>Todo tipo de software</h2><p>
                     <h3>O Bistec soft agora cuida do seu site e contas de e-mail!</h3>
                     
-                    <a href="/produtos/soft" class="button_text bt-dialog">Saiba Mais · Bistec Soft</a>
+                    <a href="./produtos/soft" class="button_text bt-dialog">Saiba Mais · Bistec Soft</a>
                 </div>
         </section>
 
@@ -113,7 +113,7 @@
                     Tudo que a sua empresa precisa para ter uma rede wi-Fi com alto desempenho e de qualidade.
                 </h3>
                 
-                <a href="/produtos/wifi" class="button_text bt-dialog">Saiba Mais · Bistec Wifi</a>
+                <a href="./produtos/wifi" class="button_text bt-dialog">Saiba Mais · Bistec Wifi</a>
             </div>
         </section>
     </article>
