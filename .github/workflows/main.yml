@@ -3,7 +3,7 @@ name: Laravel Rsync Deploy
 on:
   push:
     branches:
-      - teste-deploy
+      - main
 
 jobs:
   laravel-rsync-deploy:
