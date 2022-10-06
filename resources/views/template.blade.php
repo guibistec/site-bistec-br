@@ -21,39 +21,39 @@
     <meta name="description" content="Bistec Consultoria de TI. Desde 1999 fornecendo produtos e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio.">
     <title>Início - Bistec Brasil</title>
     @yield('style')
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/styleMobile.css">
-    <link rel="stylesheet" href="/css/styleTablet.css">
-    <link rel="stylesheet" href="/css/styleTelaQuadrada.css">
-    <link rel="stylesheet" href="/css/styleTv.css">
-    <link rel="stylesheet" href="/css/styleDark.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleMobile.css">
+    <link rel="stylesheet" href="./css/styleTablet.css">
+    <link rel="stylesheet" href="./css/styleTelaQuadrada.css">
+    <link rel="stylesheet" href="./css/styleTv.css">
+    <link rel="stylesheet" href="./css/styleDark.css">
     <link rel="icon" href="https://ik.imagekit.io/bistecpt/imagens/logo-bistec-favicon_qs5OCIyQ6.png">
 </head>
 <body>
     <header class="header-bistec" id="#first_section">
         <a href="#first_section" class="logo-bistec">
-            <img src="https://ik.imagekit.io/bistecpt/imagens/logo-bistec_zdIOSH6aM.png?tr=w-300,h-102" alt="Logo - Bistec" width="90.666" height="84.375">
-            <img src="https://ik.imagekit.io/bistecpt/imagens/logo_bistec_branco_-eLBgM6N7P.png?tr=w-300,h-102" alt="Logo Branca - Bistec" width="300" height="102">
+            <img src="https://ik.imagekit.io/bistecpt/imagens/logo-bistec.png?tr=w-300,h-102" alt="Logo - Bistec" width="90.666" height="84.375">
+            <img src="https://ik.imagekit.io/bistecpt/imagens/logo_bistec_branco.png?tr=w-300,h-102" alt="Logo Branca - Bistec" width="300" height="102">
         </a>
         <ul class="normal-menu">
             <li>
-                <a href="/" class="normal" >HOME</a>
+                <a href="./" class="normal" >HOME</a>
             </li>
             <li>
-                <a href="/contato" class="normal" >CONTACTO</a>
+                <a href="./contato" class="normal" >CONTACTO</a>
             </li>
             <li>
                 <a href="#" class="normal">PORTEFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
                 <ul class="normal-submenu">
-                    <li><a href="/produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
-                    <li><a href="/produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
-                    <li><a href="/produtos/edu"> <ion-icon name="pencil-sharp"></ion-icon> BISTEC EDU</a></li>
-                    <li><a href="/produtos/msp"> <ion-icon name="lock-closed"></ion-icon> BISTEC MSP</a></li>
-                    <li><a href="/produtos/outsourcing"> <ion-icon name="settings-sharp"></ion-icon> BISTEC OUTSOURCING</a></li>
-                    <li><a href="/produtos/renting"> <ion-icon name="reload-circle-sharp"></ion-icon> BISTEC RENTING</a></li>
-                    <li><a href="/produtos/rgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC RGPD</a></li>
-                    <li><a href="/produtos/soft"><ion-icon name="disc-sharp"></ion-icon> BISTEC SOFT</a></li>
-                    <li><a href="/produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon> BISTEC WIFI</a></li>
+                    <li><a href="./produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
+                    <li><a href="./produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
+                    <li><a href="./produtos/edu"> <ion-icon name="pencil-sharp"></ion-icon> BISTEC EDU</a></li>
+                    <li><a href="./produtos/msp"> <ion-icon name="lock-closed"></ion-icon> BISTEC MSP</a></li>
+                    <li><a href="./produtos/outsourcing"> <ion-icon name="settings-sharp"></ion-icon> BISTEC OUTSOURCING</a></li>
+                    <li><a href="./produtos/renting"> <ion-icon name="reload-circle-sharp"></ion-icon> BISTEC RENTING</a></li>
+                    <li><a href="./produtos/rgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC RGPD</a></li>
+                    <li><a href="./produtos/soft"><ion-icon name="disc-sharp"></ion-icon> BISTEC SOFT</a></li>
+                    <li><a href="./produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon> BISTEC WIFI</a></li>
                 </ul>
             </li>
             <li>
@@ -65,7 +65,7 @@
                 </a>
             </li>
             <li>
-                <a href="/suporte">
+                <a href="./suporte">
                     <div class="button_support">
                         <span class="button_icon support_icon"><ion-icon name="headset-outline"></ion-icon></span>
                         <span class="button_text">SUPORTE</span>
@@ -134,7 +134,7 @@
     <div class="footer-copyright">
         <p>©2022 Bistec · Consultoria de TI · Todos os direitos reservados.</p>
     </div>
-    <script src="/js/main.js" defer async></script>
+    <script src="./js/main.js" defer async></script>
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
     <script src="//code.jivosite.com/widget/3bZuUHkWaM" async></script>
 </body>
