@@ -21,6 +21,7 @@
     <meta name="description" content="Bistec Consultoria de TI. Desde 1999 fornecendo produtos e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio.">
     <title>Iníciooi - Bistec Brasil</title>
     @yield('style')
+    <link rel="stylesheet" href="{{ asset('css/ionicons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="icon" href="https://ik.imagekit.io/bistecpt/imagens/logo-bistec-favicon_qs5OCIyQ6.png">
 </head>
@@ -38,23 +39,23 @@
                 <a href="./contato" class="normal" >CONTACTO</a>
             </li>
             <li>
-                <a href="#" class="normal">PORTEFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
+                <a href="#" class="normal">PORTEFÓLIO<i class="icon ion-chevron-down"></i></a>
                 <ul class="normal-submenu">
-                    <li><a href="./produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
-                    <li><a href="./produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
-                    <li><a href="./produtos/edu"> <ion-icon name="pencil-sharp"></ion-icon> BISTEC EDU</a></li>
-                    <li><a href="./produtos/msp"> <ion-icon name="lock-closed"></ion-icon> BISTEC MSP</a></li>
-                    <li><a href="./produtos/outsourcing"> <ion-icon name="settings-sharp"></ion-icon> BISTEC OUTSOURCING</a></li>
-                    <li><a href="./produtos/renting"> <ion-icon name="reload-circle-sharp"></ion-icon> BISTEC RENTING</a></li>
-                    <li><a href="./produtos/rgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC RGPD</a></li>
-                    <li><a href="./produtos/soft"><ion-icon name="disc-sharp"></ion-icon> BISTEC SOFT</a></li>
-                    <li><a href="./produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon> BISTEC WIFI</a></li>
+                    <li><a href="./produtos/automacao"><i class="icon ion-at"></i> BISTEC AUTOMAÇÃO</a></li>
+                    <li><a href="./produtos/cloud"><i class="icon ion-cloud"></i> BISTEC CLOUD</a></li>
+                    <li><a href="./produtos/edu"><i class="icon ion-pizza"></i> BISTEC EDU</a></li>
+                    <li><a href="./produtos/msp"><i class="icon ion-pizza"></i> BISTEC MSP</a></li>
+                    <li><a href="./produtos/outsourcing"><i class="icon ion-settings"></i>  BISTEC OUTSOURCING</a></li>
+                    <li><a href="./produtos/renting"><i class="icon ion-pizza"></i> BISTEC RENTING</a></li>
+                    <li><a href="./produtos/rgpd"><i class="icon ion-pizza"></i> BISTEC RGPD</a></li>
+                    <li><a href="./produtos/soft"><i class="icon ion-disc"></i> BISTEC SOFT</a></li>
+                    <li><a href="./produtos/wifi"><i class="icon ion-wifi"></i> BISTEC WIFI</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">
                     <button class="button">
-                        <span class="button_icon"><ion-icon name="cart-outline"></ion-icon></span>
+                        <span class="button_icon"><i class="icon ion-android-cart"></i></span>
                         <span class="button_text">LOJA</span>
                     </button>
                 </a>
@@ -62,7 +63,7 @@
             <li>
                 <a href="./suporte">
                     <div class="button_support">
-                        <span class="button_icon support_icon"><ion-icon name="headset-outline"></ion-icon></span>
+                        <span class="button_icon support_icon"><i class="ion-headphone"></i></span>
                         <span class="button_text">SUPORTE</span>
                     </div>
                 </a>
@@ -77,15 +78,15 @@
     @yield('corpo')
     <footer>
         <div class="redes-sociais">
-            <a href="mailto:bistec@bistec.com.br" title="Bistec E-mail" target="_blank"><ion-icon name="mail" class="ionspecial"></ion-icon></a>
-            <a href="https://facebook.com/bistecweb" title="Bistec Facebook" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://instagram.com/bistecweb" title="Bistec Instagram" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="https://youtube.com/bistecweb" title="Bistec Youtube" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-            <a href="https://www.twitter.com/bistecweb" title="Bistec Twitter" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-            <a href="https://www.flickr.com/bistec" title="Bistec Flickr" target="_blank"><ion-icon name="logo-flickr"></ion-icon></a>
-            <a href="https://soundcloud.com/bistecweb" title="Bistec Soundcloud" target="_blank"><ion-icon name="logo-soundcloud"></ion-icon></a>
-            <a href="https://linkedin.com/company/bistec" title="Bistec Linkedin" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="https://www.google.com/maps/place/BISTEC+PT+-+Servi%C3%A7os+de+tecnologia+para+todas+as+empresas/@40.6404794,-8.6534868,17z/data=!3m1!4b1!4m5!3m4!1s0xd2399dba4bcb0ad:0x74340dfb6ecc8e8d!8m2!3d40.6404794!4d-8.6534868?hl=pt" title="Bistec Linkedin" target="_blank"><ion-icon name="location" class="ionspecial"></ion-icon></a>
+            <a href="mailto:bistec@bistec.com.br" title="Bistec E-mail" target="_blank"><i class="ion-email"></i></a>
+            <a href="https://facebook.com/bistecweb" title="Bistec Facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
+            <a href="https://instagram.com/bistecweb" title="Bistec Instagram" target="_blank"><i class="ion-social-instagram-outline"></i></a>
+            <a href="https://youtube.com/bistecweb" title="Bistec Youtube" target="_blank"><i class="ion-social-youtube-outline"></i></a>
+            <a href="https://www.twitter.com/bistecweb" title="Bistec Twitter" target="_blank"><i class="ion-social-twitter-outline"></i></a>
+            <a href="https://www.flickr.com/bistec" title="Bistec Flickr" target="_blank"><i class="ion-android-cloud"></i></a>
+            <a href="https://soundcloud.com/bistecweb" title="Bistec Soundcloud" target="_blank"><i class="ion-social-linkedin-outline"></i></a>
+            <a href="https://linkedin.com/company/bistec" title="Bistec Linkedin" target="_blank"><i class="ion-social-linkedin-outline"></i></a>
+            <a href="https://www.google.com/maps/place/BISTEC+PT+-+Servi%C3%A7os+de+tecnologia+para+todas+as+empresas/@40.6404794,-8.6534868,17z/data=!3m1!4b1!4m5!3m4!1s0xd2399dba4bcb0ad:0x74340dfb6ecc8e8d!8m2!3d40.6404794!4d-8.6534868?hl=pt" title="Bistec Linkedin" target="_blank"><i class="ion-location"></i></a>
         </div>
 
         <div class="contacts">
@@ -130,7 +131,7 @@
         <p>©2022 Bistec · Consultoria de TI · Todos os direitos reservados.</p>
     </div>
     <script src="./js/main.js" defer async></script>
-    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script> -->
     <!-- <script src="//code.jivosite.com/widget/3bZuUHkWaM" async></script> -->
 </body>
 </html>
