@@ -62,14 +62,15 @@ header .normal-menu li a {
 
 .normal-submenu li a {
     width: 200px;
-    padding: 12px;
+    padding: 8.5px;
     color: #141414;
     background: #F3FAFA;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     box-shadow: 0.2px 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.473);
 }
+
 .normal-submenu li a:hover,
 .normal-submenu li a:focus-within {
     background: #0c407c;
@@ -84,7 +85,7 @@ header .normal-menu li a {
 
 header ul ul {
     position: absolute;
-    top: 34px;
+    top: 31.5px;
     display: none;
 }
 
@@ -102,7 +103,7 @@ header ul :hover > ul{
     height: 30px;
 	padding: 0;
     margin: 0;
-	background: #BB0A0A;
+	background: #0F5A20;
 	border-radius: 6px;
 	overflow: hidden;
     border: none;
@@ -114,11 +115,11 @@ header ul :hover > ul{
 }
 
 .button:hover {
-	background: #c91818;
+	background: #115d23;
 }
 
 .button:active{
-	background: #d12b2b;
+	background: #146426;
 }
 
 .button_text,
@@ -126,7 +127,7 @@ header ul :hover > ul{
 	display: inline-flex;
 	align-items: center;
 	padding: 0 10px;
-	color: #fff;
+	color: #FFEF6C;
     height: 100%;
 }
 
@@ -144,6 +145,8 @@ a {
     font-family: 'Inter', sans-serif;
 	font-weight: 700;
     line-height: 2;
+    position: relative;
+    
 }
 
 .normal ion-icon {
@@ -154,13 +157,25 @@ a {
     display: block;
 }
 
-.normal:hover{
-    border-bottom: 3px solid #141414;
+.normal::after{
+    content: '';
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    width: 0%;
+    height: 2.5px;
+    background-color: #141414;
+    transition: 0.2s;
+} 
+
+.normal:hover::after{
+    left: 0;
+    width: 100%;
 } 
 
 
 .button_icon {
-	background: #056006;
+	background: #0B4417;
 }
 
 .button_support {
@@ -176,19 +191,19 @@ a {
 	font-size: 15px;
 	font-weight: 800;
 	cursor: pointer;
-    background: #0c407c;
+    background: #082e5e;
 }
 
 .button_support:hover {
-    background: #10498a;
+    background: #0b3e78;
 }
 
 .button_support:active{
-    background: #18559b;
+    background: #0e4583;
 }
 
 .support_icon {
-    background: #07305f;
+    background: #001E42;
 }
 
 .menu-cell {

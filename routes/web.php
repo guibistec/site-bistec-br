@@ -37,6 +37,10 @@ Route::get('/produtos/edu', function () {
     return view('produtos/edu');
 });
 
+Route::get('/produtos/ged', function () {
+    return view('produtos/ged');
+});
+
 Route::get('/produtos/lgpd', function () {
     return view('produtos/lgpd');
 });

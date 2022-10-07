@@ -48,14 +48,22 @@
                     <li><a href="/produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
                     <li><a href="/produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
                     <li><a href="/produtos/edu"> <ion-icon name="pencil-sharp"></ion-icon> BISTEC EDU</a></li>
+                    <li><a href="/produtos/ged"><ion-icon name="file-tray-stacked-sharp"></ion-icon> BISTEC GED</a></li>
+                    <li><a href="/produtos/ged"><ion-icon name="leaf-sharp"></ion-icon> BISTEC GREEN</a></li>
+                    <li><a href="/produtos/lgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC LGPD</a></li>
                     <li><a href="/produtos/msp"> <ion-icon name="lock-closed"></ion-icon> BISTEC MSP</a></li>
                     <li><a href="/produtos/outsourcing"> <ion-icon name="settings-sharp"></ion-icon> BISTEC OUTSOURCING</a></li>
+                    <li><a href="/produtos/renting"> <ion-icon name="card"></ion-icon> BISTEC PAY</a></li>
                     <li><a href="/produtos/renting"> <ion-icon name="reload-circle-sharp"></ion-icon> BISTEC RENTING</a></li>
-                    <li><a href="/produtos/lgpd"><ion-icon name="shield-checkmark-sharp"></ion-icon> BISTEC LGPD</a></li>
+                    <li><a href="/produtos/renting"> <ion-icon name="log-in"></ion-icon> BISTEC SIGN</a></li>
                     <li><a href="/produtos/soft"><ion-icon name="disc-sharp"></ion-icon> BISTEC SOFT</a></li>
-                    <li><a href="/produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon> BISTEC WIFI</a></li>
+                    <li><a href="/produtos/renting"> <ion-icon name="call"></ion-icon> BISTEC VOIP</a></li>
+                    <li><a href="/produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon>BISTEC WIFI</a></li>
+                    <li><a href="/produtos/renting"> <ion-icon name="document"></ion-icon> BISTEC XML</a></li>
+                    <li><a href="/produtos/renting"> <ion-icon name="globe-sharp"></ion-icon> HOSTFIBER - LINK INTERNET</a></li>
                 </ul>
             </li>
+
             <li>
                 <a href="https://www.cupomfiscaleletronico.com.br/" target="_blank">
                     <button class="button">
@@ -72,6 +80,7 @@
                     </div>
                 </a>
             </li>
+            
         </ul>
         <ul class="menu-cell">
             <li>
