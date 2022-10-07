@@ -14,37 +14,29 @@ const mix = require('laravel-mix');
 mix.
     styles([
         'resources/views/css/style.css',
-    ], 'public/css/style.css').
-    styles([
-        'resources/views/css/styleContato.css'
-    ], 'public/css/styleContato.css').
-    styles([
         'resources/views/css/styleDark.css',
-    ], 'public/css/styleDark.css').
-    styles([
-        'resources/views/css/styleEmail.css',
-    ], 'public/css/styleEmail.css').
-    styles([
-        'resources/views/css/styleErro404.css',
-    ], 'public/css/styleErro404.css').
-    styles([
         'resources/views/css/styleMobile.css',
-    ], 'public/css/styleMobile.css').
-    styles([
-        'resources/views/css/styleProdutos.css',
-    ], 'public/css/styleProdutos.css').
+        'resources/views/css/styleTablet.css',
+        'resources/views/css/styleTelaQuadrada.css',
+        'resources/views/css/styleTv.css',
+    ], 'public/css/style.css').
+
+    scripts([
+        'resources/views/js/main.js',
+    ], 'public/js/main.js').
+
     styles([
         'resources/views/css/styleSuporte.css',
     ], 'public/css/styleSuporte.css').
     styles([
-        'resources/views/css/styleTablet.css',
-    ], 'public/css/styleTablet.css').
+        'resources/views/css/styleProdutos.css',
+    ], 'public/css/styleProdutos.css').
     styles([
-        'resources/views/css/styleTelaQuadrada.css',
-    ], 'public/css/styleTelaQuadrada.css').
+        'resources/views/css/styleErro404.css',
+    ], 'public/css/styleErro404.css').
     styles([
-        'resources/views/css/styleTv.css',
-    ], 'public/css/styleTv.css').
-    scripts([
-        'resources/views/js/main.js',
-    ], 'public/js/main.js');
+        'resources/views/css/styleEmail.css',
+    ], 'public/css/styleEmail.css').
+    styles([
+        'resources/views/css/styleContato.css'
+    ], 'public/css/styleContato.css');

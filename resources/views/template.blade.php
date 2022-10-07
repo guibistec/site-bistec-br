@@ -22,11 +22,6 @@
     <title>Iníciooi - Bistec Brasil</title>
     @yield('style')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/styleMobile.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/styleTablet.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/styleTelaQuadrada.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/styleTv.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/styleDark.css') }}">
     <link rel="icon" href="https://ik.imagekit.io/bistecpt/imagens/logo-bistec-favicon_qs5OCIyQ6.png">
 </head>
 <body>
