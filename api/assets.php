@@ -11,3 +11,6 @@ if ($_GET['type'] === 'css') {
     header('Content-Type: application/javascript; charset: UTF-8');
     echo require __DIR__ . '/../public/js/' . basename($_GET['file']);
 }
+else if ($_GET['type'] === 'eot' || $_GET['type'] === 'svg' || $_GET['type'] === 'ttf' || $_GET['type'] === 'woff') {
+    echo require __DIR__ . '/../public/fonts/' . basename($_GET['file']);
+}
