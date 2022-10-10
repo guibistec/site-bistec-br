@@ -41,6 +41,10 @@ Route::get('/produtos/ged', function () {
     return view('produtos/ged');
 });
 
+Route::get('/produtos/green', function () {
+    return view('produtos/green');
+});
+
 Route::get('/produtos/lgpd', function () {
     return view('produtos/lgpd');
 });
@@ -53,14 +57,35 @@ Route::get('/produtos/outsourcing', function () {
     return view('produtos/outsourcing');
 });
 
+Route::get('/produtos/pay', function () {
+    return view('produtos/pay');
+});
+
 Route::get('/produtos/renting', function () {
     return view('produtos/renting');
+});
+
+Route::get('/produtos/sign', function () {
+    return view('produtos/sign');
 });
 
 Route::get('/produtos/soft', function () {
     return view('produtos/soft');
 });
 
+Route::get('/produtos/voip', function () {
+    return view('produtos/voip');
+});
+
+
 Route::get('/produtos/wifi', function () {
     return view('produtos/wifi');
+});
+
+Route::get('/produtos/xml', function () {
+    return view('produtos/xml');
+});
+
+Route::get('/produtos/hostfiber', function () {
+    return view('produtos/hostfiber');
 });

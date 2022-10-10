@@ -12,7 +12,7 @@
             <h1>Suporte Técnico</h1>
             <p>Este canal é exclusivo para clientes de contrato.</p>
             <!--<p>Helpdesk on-line aberto de <strong>segunda à sexta</strong>, das <strong>8:15h às 18:00h.</strong></p>-->
-            <p>Caso a sua empresa ainda não seja parceira, fale connosco!
+            <p>Caso a sua empresa ainda não seja parceira, fale conosco!
             </p>
             <p>Faça Download do Anydesk!</p>
             <div class="bt-dialog-anydesk">

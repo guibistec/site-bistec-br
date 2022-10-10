@@ -8,7 +8,7 @@
 <article id="first_section">
         <!-- banner -->
         <section class="banner-bistec">
-            <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-green-intro.jpg" alt="Imagem de fundo do produto Bistec Cloud">
+            <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-sign-intro.jpg" alt="Imagem de fundo do produto Bistec Cloud">
             <!--<div class="banner-bistec-texto">
                 <h1>Bistec Portugal</h1>
                 <h2>Serviços em tecnologia para todas as empresas</h2>
@@ -17,7 +17,7 @@
 
     <!-- texto produto -->
     <div class="produto-texto">
-        <h1>Bistec Green</h1>
+        <h1>Bistec Sign</h1>
         <p>
             Quando se trata de atendimento técnico para a sua empresa atualmente existem dois modelos, o break-fix (quebrou-consertou) e o MSP (Provedores de Serviços Gerenciados).
         </p>

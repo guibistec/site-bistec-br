@@ -9,7 +9,7 @@
 <article id="first_section">
         <!-- banner -->
         <section class="banner-bistec">
-            <img src="https://ik.imagekit.io/bistecpt/imagens/produtos/bistec-lgpd-intro.jpg" alt="Imagem de fundo do produto Bistec LGPD">
+            <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-lgpd-intro.jpg" alt="Imagem de fundo do produto Bistec LGPD">
             <!--<div class="banner-bistec-texto">
                 <h1>Bistec Portugal</h1>
                 <h2>Serviços em tecnologia para todas as empresas</h2>

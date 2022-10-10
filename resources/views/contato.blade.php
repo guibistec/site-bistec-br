@@ -9,7 +9,7 @@
 <article id="first_section" class="article_contact">
         <div class="formulario">
             <form action="email/" method="POST" id="formContato">
-                <h1>Formulário para Contacto</h1>
+                <h1>Formulário para Contato</h1>
                 <div class="campos">
                     <label>Nome completo:</label><br>
                     <input type="text" name="nomeRemetente" placeholder="Digite seu nome aqui" required>

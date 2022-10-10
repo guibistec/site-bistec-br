@@ -9,7 +9,7 @@
 <article id="first_section">
         <!-- banner -->
         <section class="banner-bistec">
-            <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-ged-intro.jpg" alt="Imagem de fundo do produto Bistec Cloud">
+            <!-- <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-ged-intro.jpg" alt="Imagem de fundo do produto Bistec Cloud"> -->
             <!--<div class="banner-bistec-texto">
                 <h1>Bistec Portugal</h1>
                 <h2>Serviços em tecnologia para todas as empresas</h2>
@@ -18,7 +18,7 @@
 
     <!-- texto produto -->
         <div class="produto-texto">
-            <h1>Bistec GED</h1>
+            <h1>HostFiber – Fibra Óptica</h1>
             <p>
                 Constantemente, a implementação de um software de gestão acaba por falhar, porque não é dada a atenção necessária ao profissional que utilizará a ferramenta no dia-a-dia. Para evitar este tipo de situação, o Bistec Edu fornece formação para toda a sua equipa explorar 100% da capacidade das soluções adquiridas.
             </p>

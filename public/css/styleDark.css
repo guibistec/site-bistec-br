@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
 
     header {
-        border-bottom: 3px solid #a0c8f9;
+        border-bottom: 3px solid #FFEF6C;
     }
     
     header .logo-bistec img:nth-child(1){
@@ -53,7 +53,7 @@
 
     .normal, 
     .normal ion-icon {
-        color: #a0c8f9;
+        color: #FFEF6C;
     }
     .normal::after{
         content: '';
@@ -62,7 +62,7 @@
         left: 50%;
         width: 0%;
         height: 2.5px;
-        background-color: #a0c8f9;
+        background-color: #FFEF6C;
         transition: 0.2s;
     } 
     
