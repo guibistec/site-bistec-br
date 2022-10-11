@@ -14,7 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $automacao = "https://ik.imagekit.io/bistecbr/img-lg-bistec-automacao.png";
+    $cloud = "https://ik.imagekit.io/bistecbr/img-lg-bistec-cloud.png";
+    $edu = "https://ik.imagekit.io/bistecbr/img-lg-bistec-edu.png";
+    $ged = "https://ik.imagekit.io/bistecbr/img-lg-bistec-ged.png";
+    $green = "https://ik.imagekit.io/bistecbr/img-lg-bistec-green.png";
+    $lgpd = "https://ik.imagekit.io/bistecbr/img-lg-bistec-lgpd.png";
+    $msp = "https://ik.imagekit.io/bistecbr/img-lg-bistec-msp.png";
+    $outsourcing = "https://ik.imagekit.io/bistecbr/img-lg-bistec-outsourcing.png";
+    $pay = "https://ik.imagekit.io/bistecbr/img-lg-bistec-pay.png";
+    $renting = "https://ik.imagekit.io/bistecbr/img-lg-bistec-renting.png";
+    $sign = "https://ik.imagekit.io/bistecbr/img-lg-bistec-sign.png";
+    $soft = "https://ik.imagekit.io/bistecbr/img-lg-bistec-soft.png";
+    $voip = "https://ik.imagekit.io/bistecbr/img-lg-bistec-voip.png";
+    $wifi = "https://ik.imagekit.io/bistecbr/img-lg-bistec-wifi.png";
+    $xml = "https://ik.imagekit.io/bistecbr/img-lg-bistec-xml.png";
+
+    return view('home', ['automacao' => $automacao, 'cloud' => $cloud, 'edu' => $edu, 'ged' => $ged, 'green' => $green, 'lgpd' => $lgpd, 'msp' => $msp, 'outsourcing' => $outsourcing, 'pay' => $pay, 'renting' => $renting, 'sign' => $sign, 'soft' => $soft, 'voip' => $voip, 'wifi' => $wifi, 'xml' => $xml]);
 });
 
 Route::get('/suporte', function () {
