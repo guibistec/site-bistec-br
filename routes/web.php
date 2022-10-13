@@ -15,12 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $automacao = "https://ik.imagekit.io/bistecbr/img-lg-bistec-automacao.png";
+    $automacaowhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-automacao-branco.png";
     $cloud = "https://ik.imagekit.io/bistecbr/img-lg-bistec-cloud.png";
+    $cloudwhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-cloud-branco.png";
     $edu = "https://ik.imagekit.io/bistecbr/img-lg-bistec-edu.png";
+    $eduwhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-edu-branco.png";
     $ged = "https://ik.imagekit.io/bistecbr/img-lg-bistec-ged.png";
+    $gedwhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-ged-branco.png";
     $green = "https://ik.imagekit.io/bistecbr/img-lg-bistec-green.png";
+    $greenwhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-green-branco.png";
     $lgpd = "https://ik.imagekit.io/bistecbr/img-lg-bistec-lgpd.png";
+    $lgpdwhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-lgpd-branco.png";
     $msp = "https://ik.imagekit.io/bistecbr/img-lg-bistec-msp.png";
+    $mspwhite = "https://ik.imagekit.io/bistecbr/img-lg-bistec-msp-branco.png";
     $outsourcing = "https://ik.imagekit.io/bistecbr/img-lg-bistec-outsourcing.png";
     $pay = "https://ik.imagekit.io/bistecbr/img-lg-bistec-pay.png";
     $renting = "https://ik.imagekit.io/bistecbr/img-lg-bistec-renting.png";
@@ -30,7 +37,7 @@ Route::get('/', function () {
     $wifi = "https://ik.imagekit.io/bistecbr/img-lg-bistec-wifi.png";
     $xml = "https://ik.imagekit.io/bistecbr/img-lg-bistec-xml.png";
 
-    return view('home', ['automacao' => $automacao, 'cloud' => $cloud, 'edu' => $edu, 'ged' => $ged, 'green' => $green, 'lgpd' => $lgpd, 'msp' => $msp, 'outsourcing' => $outsourcing, 'pay' => $pay, 'renting' => $renting, 'sign' => $sign, 'soft' => $soft, 'voip' => $voip, 'wifi' => $wifi, 'xml' => $xml]);
+    return view('home', ['automacao' => $automacao, 'automacaowhite' => $automacaowhite, 'cloud' => $cloud, 'cloudwhite' => $cloudwhite, 'edu' => $edu, 'eduwhite' => $eduwhite, 'ged' => $ged, 'gedwhite' => $gedwhite, 'green' => $green, 'greenwhite' => $greenwhite,'lgpd' => $lgpd, 'lgpdwhite' => $lgpdwhite, 'msp' => $msp, 'mspwhite' => $mspwhite, 'outsourcing' => $outsourcing, 'pay' => $pay, 'renting' => $renting, 'sign' => $sign, 'soft' => $soft, 'voip' => $voip, 'wifi' => $wifi, 'xml' => $xml]);
 });
 
 Route::get('/suporte', function () {

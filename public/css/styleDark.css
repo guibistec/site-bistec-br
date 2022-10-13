@@ -94,10 +94,12 @@
     #bistec-automacao img:nth-child(1),
     #bistec-cloud img:nth-child(1),
     #bistec-edu img:nth-child(1),
+    #bistec-ged img:nth-child(1),
+    #bistec-green img:nth-child(1),
+    #bistec-lgpd img:nth-child(1),
     #bistec-outsourcing img:nth-child(1),
     #bistec-msp img:nth-child(1),
     #bistec-renting img:nth-child(1),
-    #bistec-lgpd img:nth-child(1),
     #bistec-soft img:nth-child(1),
     #bistec-wifi img:nth-child(1){
         display: none;
@@ -106,20 +108,22 @@
     #bistec-automacao img:nth-child(2),
     #bistec-cloud img:nth-child(2),
     #bistec-edu img:nth-child(2),
+    #bistec-ged img:nth-child(2),
+    #bistec-green img:nth-child(2),
+    #bistec-lgpd img:nth-child(2),
     #bistec-outsourcing img:nth-child(2),
     #bistec-msp img:nth-child(2),
     #bistec-renting img:nth-child(2),
-    #bistec-lgpd img:nth-child(2),
     #bistec-soft img:nth-child(2),
     #bistec-wifi img:nth-child(2){
         display: inherit;
     }
     article {
-        background-color: #141414;
+        background-color: transparent;
     }
     
     .bistec-produtos {
-        background-color: #141414;
+        background-color: #1c1c1c;
         color: #f3fafa;
     }
 
@@ -159,6 +163,12 @@
         color: #F3FAFA;
     }
 
+    .formulario2 {
+        background: linear-gradient(135deg, #1c1c1c, #000);
+        color: #fff;
+        border: 4px solid #a0c8f9;
+    }
+
     input, textarea {
         background: rgb(0, 0, 0);
         color: rgb(224, 224, 224);
@@ -174,6 +184,11 @@
     input[type=submit]:hover {
         background: linear-gradient(135deg, #BA83C0, #65ADE2);
         color: black;
+    }
+
+    .campos p a {
+        color: #a0c8f9;
+        text-decoration: underline;
     }
 
     /* pág suporte */

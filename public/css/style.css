@@ -253,7 +253,8 @@ a {
 /*---PRODUTOS------------------------------------*/
 .bistec-produtos{
     padding: 5vw 2.5vw 2.5vw 2.5vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     max-width: 90%;
@@ -267,6 +268,9 @@ a {
 #bistec-automacao img:nth-child(2),
 #bistec-cloud img:nth-child(2),
 #bistec-edu img:nth-child(2),
+#bistec-ged img:nth-child(2),
+#bistec-green img:nth-child(2),
+#bistec-lgpd img:nth-child(2),
 #bistec-outsourcing img:nth-child(2),
 #bistec-msp img:nth-child(2),
 #bistec-renting img:nth-child(2),
@@ -284,9 +288,9 @@ a {
     font-size: 20px;
 }
 .bistec-produtos img{
-    width: 35vw;
-    margin: 1vw;
-    margin-right: 2.5vw;
+    width: 24vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 .texto-produtos h2{
     font-size: 2.5vw;

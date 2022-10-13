@@ -1,24 +1,32 @@
 
-body {
-    background: #07305f;
-   /* background: linear-gradient(135deg, #71b7ed, #9b59b6); */
+body{ 
+    background: linear-gradient(135deg, #10588c, #07305f);
 }
 
 article {
-    margin-top: 77px;
+    margin-top: 90px;
     max-width: 60%;
 }
 
 .formulario {
-    border-radius: 1em;
-    background-color:#F3FAFA;
+    border-radius: 0.3em;
+    background: linear-gradient(135deg, #f3fafa, #fff);
     color: #000;
     margin: 2.5em 0;
+    border: 4px solid #A0C8F9;
+}
+
+.formulario2 {
+    border-radius: 0.3em;
+    background: linear-gradient(135deg, #f3fafa, #fff);
+    color: #000;
+    margin: 2.5em 0;
+    border: 4px solid #A0C8F9;
 }
 
 .campos {
     padding: 1% 2%;
-    text-align: center;
+    text-align: left;
 }
 
 .campos label {
@@ -28,7 +36,7 @@ article {
 }
 input, textarea {
     padding: 2%;
-    margin: 1.5% 0;
+    margin: 1.2% 0;
     width: 100%;
     background: #F3FAFA;
     color: #161616;
@@ -45,25 +53,34 @@ input, textarea {
 }
 
 input[type=submit] {
-    background: #161616;
-    /* background: linear-gradient(135deg, #65ADE2, #BA83C0); */
+    background: linear-gradient(135deg, #10588c, #07305f);
     border: transparent;
     font-size: 1.5em;
-    color: #A0C8F9;
+    color: #fff;
     font-weight: 900;
 }
 
 input[type=submit]:hover {
-/*    background: linear-gradient(135deg, #BA83C0, #65ADE2);*/
+    background: linear-gradient(135deg, #07305f, #10588c);
+    transition: 0.4s;
     cursor: pointer;
-    background-color: #A0C8F9;
-    color: #161616;
 }
 
 input[type=submit]:focus-within {
     cursor: pointer;
-    background-color: #A0C8F9;
-    color: #161616;
+    border: 2px solid #A0C8F9;
+}
+
+.campos p a {
+    font-weight: 600;
+    color: #07305f;
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    body{ 
+        background: #1c1c1c;
+    }
 }
 
 
@@ -79,3 +96,4 @@ input[type=submit]:focus-within {
         max-width: 95%;
     }
 }
+
