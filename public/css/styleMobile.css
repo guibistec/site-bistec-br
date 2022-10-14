@@ -145,24 +145,30 @@
 
     .banner-bistec-texto {    
         transform: translate(-30%, -50%);
-        left: 42%;
+        left: 36.5%;
+        width: 90%;
     }  
     .banner-bistec-texto h1 {
-        font-size: 6vw;
+        font-size: 9.6vw;
     }
     .banner-bistec-texto h2 {
-        font-size: 4vw;
+        font-size: 6.3vw;
     }
 
     /* produtos */
 
     .bistec-produtos {
-        flex-direction: column;
-        margin-top: 5em;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        max-width: 100%;
+        padding: 0;
     }
 
     .bistec-produtos img {
-      width: 65%;
+      width: 75%;
+      margin: 0;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
     }
 
     .texto-produtos {

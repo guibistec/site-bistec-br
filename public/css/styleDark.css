@@ -73,7 +73,7 @@
 
     header .normal-submenu li a {
         color: #F3FAFA;
-        background: #222222;
+        background-color: #141414;
     }
     
     header .normal-submenu li a:hover {
@@ -97,11 +97,15 @@
     #bistec-ged img:nth-child(1),
     #bistec-green img:nth-child(1),
     #bistec-lgpd img:nth-child(1),
-    #bistec-outsourcing img:nth-child(1),
     #bistec-msp img:nth-child(1),
+    #bistec-outsourcing img:nth-child(1),
+    #bistec-pay img:nth-child(1),
     #bistec-renting img:nth-child(1),
+    #bistec-sign img:nth-child(1),
     #bistec-soft img:nth-child(1),
-    #bistec-wifi img:nth-child(1){
+    #bistec-voip img:nth-child(1),
+    #bistec-wifi img:nth-child(1),
+    #bistec-xml img:nth-child(1){
         display: none;
     }
 
@@ -111,15 +115,19 @@
     #bistec-ged img:nth-child(2),
     #bistec-green img:nth-child(2),
     #bistec-lgpd img:nth-child(2),
-    #bistec-outsourcing img:nth-child(2),
     #bistec-msp img:nth-child(2),
+    #bistec-outsourcing img:nth-child(2),
+    #bistec-pay img:nth-child(2),
     #bistec-renting img:nth-child(2),
+    #bistec-sign img:nth-child(2),
     #bistec-soft img:nth-child(2),
-    #bistec-wifi img:nth-child(2){
+    #bistec-voip img:nth-child(2),
+    #bistec-wifi img:nth-child(2),
+    #bistec-xml img:nth-child(2){
         display: inherit;
     }
     article {
-        background-color: transparent;
+        background-color: #1c1c1c;
     }
     
     .bistec-produtos {

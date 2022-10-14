@@ -271,12 +271,15 @@ a {
 #bistec-ged img:nth-child(2),
 #bistec-green img:nth-child(2),
 #bistec-lgpd img:nth-child(2),
-#bistec-outsourcing img:nth-child(2),
 #bistec-msp img:nth-child(2),
+#bistec-outsourcing img:nth-child(2),
+#bistec-pay img:nth-child(2),
 #bistec-renting img:nth-child(2),
-#bistec-lgpd img:nth-child(2),
+#bistec-sign img:nth-child(2),
 #bistec-soft img:nth-child(2),
-#bistec-wifi img:nth-child(2){
+#bistec-voip img:nth-child(2),
+#bistec-wifi img:nth-child(2),
+#bistec-xml img:nth-child(2){
     display: none;
 }
 
@@ -459,7 +462,7 @@ footer .contact a {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    text-align: left;
+    text-align: center;
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -467,12 +470,6 @@ footer .contact img{
     aspect-ratio: attr(width) / attr(height);
     width: auto;
     height: auto;
-}
-
-footer .item1 p,
-footer .item2 p,
-footer .item3 p {
-    text-decoration: underline;
 }
 
 /* footer - copyright*/

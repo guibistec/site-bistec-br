@@ -46,29 +46,37 @@
                 <img src="{{$msp}}" alt="Bistec MSP" width="610" height="210">
                 <img src="{{$mspwhite}}" alt="Bistec MSP" width="610" height="210">
             </a>
-            <a href="/produtos/outsourcing">
+            <a href="/produtos/outsourcing" id="bistec-outsourcing">
                 <img src="{{$outsourcing}}" alt="Bistec Outsourcing" width="610" height="210">
+                <img src="{{$outsourcingwhite}}" alt="Bistec Outsourcing" width="610" height="210">
             </a>
-            <a href="/produtos/pay">
+            <a href="/produtos/pay" id="bistec-pay">
                 <img src="{{$pay}}" alt="Bistec Pay" width="610" height="210">
+                <img src="{{$paywhite}}" alt="Bistec Pay" width="610" height="210">
             </a>
-            <a href="/produtos/renting">
-                <img src="{{$renting}}" alt="Bistec MSP" width="610" height="210">
+            <a href="/produtos/renting" id="bistec-renting">
+                <img src="{{$renting}}" alt="Bistec Renting" width="610" height="210">
+                <img src="{{$rentingwhite}}" alt="Bistec Renting" width="610" height="210">
             </a>
-            <a href="/produtos/sign">
-                <img src="{{$sign}}" alt="Bistec MSP" width="610" height="210">
+            <a href="/produtos/sign" id="bistec-sign">
+                <img src="{{$sign}}" alt="Bistec Sign" width="610" height="210">
+                <img src="{{$signwhite}}" alt="Bistec Sign" width="610" height="210">
             </a>
-            <a href="/produtos/soft">
-                <img src="{{$soft}}" alt="Bistec MSP" width="610" height="210">
+            <a href="/produtos/soft" id="bistec-soft">
+                <img src="{{$soft}}" alt="Bistec Soft" width="610" height="210">
+                <img src="{{$softwhite}}" alt="Bistec Soft" width="610" height="210">
             </a>
-            <a href="/produtos/voip">
-                <img src="{{$voip}}" alt="Bistec MSP" width="610" height="210">
+            <a href="/produtos/voip" id="bistec-voip">
+                <img src="{{$voip}}" alt="Bistec Voip" width="610" height="210">
+                <img src="{{$voipwhite}}" alt="Bistec Voip" width="610" height="210">
             </a>
-            <a href="/produtos/wifi">
+            <a href="/produtos/wifi" id="bistec-wifi">
                 <img src="{{$wifi}}" alt="Bistec wifi" width="610" height="210">
+                <img src="{{$wifiwhite}}" alt="Bistec wifi" width="610" height="210">
             </a>
-            <a href="/produtos/xml">
-                <img src="{{$xml}}" alt="Bistec MSP" width="610" height="210">
+            <a href="/produtos/xml" id="bistec-xml">
+                <img src="{{$xml}}" alt="Bistec XML" width="610" height="210">
+                <img src="{{$xmlwhite}}" alt="Bistec XML" width="610" height="210">
             </a>
         </section>
     </article>
