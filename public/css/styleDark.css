@@ -283,6 +283,12 @@
         color: rgb(255, 81, 81);
         opacity: 0.8;
     }
+/*páginas de erro 404*/
+
+.bistec-error404, .bistec-error404 strong a {
+    color: #F3FAFA;
+}
+
 }
 
 @media (prefers-color-scheme: dark) and (max-width: 620px) {
