@@ -254,7 +254,7 @@ a {
 
 .bistec_presentation {
     background-color: #dcecfe;
-    padding: 10vh 0;
+    padding: 10vh 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     transform: skew(0deg, -2.5deg) translateY(-40px);
@@ -271,7 +271,9 @@ a {
 }
 
 .text_presentation {
-    padding: 6em 4em;
+    padding: 6em 0.5em;
+    background-color: #F3FAFA;
+    border-radius: 3em;
 }
 
 .text_presentation h1 {
