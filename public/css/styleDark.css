@@ -89,6 +89,27 @@
         color: #fff;
     }
 
+    /*apresentação*/
+
+    .bistec_presentation {
+        z-index: inherit;
+        margin-top: 3vh;
+        background-color: #252525;
+        transform: skew(0deg, -1.5deg) translateY(-40px);
+        border-top: 5px solid #a0c8f9;
+        border-bottom: 5px solid #a0c8f9;
+    }
+
+    .container {
+        transform: skew(0deg, 1.5deg);
+    }
+
+    .text_presentation {
+        background-color: #A0C8F9;
+        color: #000;
+        box-shadow: 0 5px 15px rgba(183, 183, 183, 0.1);
+    }
+
     /* produtos */
 
     #bistec-automacao img:nth-child(1),

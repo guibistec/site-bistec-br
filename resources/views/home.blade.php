@@ -4,7 +4,7 @@
     <article id="first_section">
         <!-- banner -->
         <section class="banner-bistec" id="imagemUnica">
-            <img id="img-banner" src="https://ik.imagekit.io/bistecbr/bonde_santos.jpg?tr=w-2008,h-762" alt="Imagem de fundo com o bondinho da cidade de Santos">
+            <img id="img-banner" src="https://ik.imagekit.io/bistecbr/banner_bistecbr.png?tr=w-2008,h-762" alt="Imagem de fundo com o bondinho da cidade de Santos">
             <div class="banner-bistec-texto">
                 <h1>Bistec Brasil</h1>
                 <h2>Tecnologia para empresas de todos os tamanhos</h2>
@@ -13,15 +13,32 @@
 
         <!-- APRESENTAÇÃO EMPRESA -->
         <section class="bistec_presentation">
-            <div class="image_presentation">
-                <img src="https://www.bistec.com.br/wp-content/uploads/2014/11/home-services-1024x746.png" alt="" width="410" height="380">
-            </div>
-            <div class="text_presentation">
-                <h1>A Nova Bistec</h1>
-                <h2>Desde 1999, em constante evolução: </h2>
-                <p>
-                    Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
-                </p>
+            <div class="container">
+                <!-- <div class="image_presentation">
+                    <img src="https://www.bistec.com.br/wp-content/uploads/2014/11/home-services-1024x746.png" alt="" width="410" height="380">
+                </div> -->
+                <div class="square_presentation">
+                    <div class="text_presentation">
+                        <div class="icon">1</div>
+                        <h1>A Nova Bistec</h1>
+                        <h2>Desde 1999, em constante evolução: </h2>
+                        <p>
+                            Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="image_presentation">
+                    <img src="https://www.bistec.com.br/wp-content/uploads/2014/11/home-services-1024x746.png" alt="" width="410" height="380">
+                </div> -->
+                <div class="square_presentation">
+                    <div class="text_presentation">
+                        <h1>A Nova Bistec</h1>
+                        <h2>Desde 1999, em constante evolução: </h2>
+                        <p>
+                            Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- PRODUTOS -->

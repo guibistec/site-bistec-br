@@ -62,7 +62,7 @@ header .normal-menu li a {
 
 .normal-submenu li a {
     width: 200px;
-    padding: 8.5px;
+    padding: 8.2px;
     color: #141414;
     background: #F3FAFA;
     text-decoration: none;
@@ -215,7 +215,7 @@ a {
     width: auto;
     margin: auto;
     position: relative;
-    border-bottom: 2px solid #141414;
+    border-bottom: 2px solid #07305f;
 }
 
 .banner-bistec img{
@@ -254,39 +254,60 @@ a {
 
 .bistec_presentation {
     background-color: #dcecfe;
-    padding: 10vh 10vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    padding: 1vh;
     transform: skew(0deg, -2.5deg) translateY(-40px);
     z-index: -1;
     position: relative;
 }
 
-.image_presentation, .text_presentation {
+.container {
     transform: skew(0deg, 2.5deg);
-}
-
-.image_presentation {
-    padding: 1em;
+    max-width: 65%;
+    padding-bottom: 6vh;
 }
 
 .text_presentation {
-    padding: 6em 0.5em;
+    padding: 1.8em;
     background-color: #F3FAFA;
-    border-radius: 3em;
+    border-radius: 0.4em;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+}
+
+.text_presentation .icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.text_presentation:nth-child(1){
+    margin-top: 4em;
 }
 
 .text_presentation h1 {
-    font-size: 3em;
+    font-size: 2em;
+    font-weight: 600;
 }
 
 .text_presentation h2 {
     font-size: 1.2em;
+    font-weight: 500;
 }
 
 .text_presentation p {
-    padding-top: 3em;
+    padding-top: 1em;
     font-size: 1.2em;
+    font-weight: 400;
 }
 
 /*---PRODUTOS------------------------------------*/
