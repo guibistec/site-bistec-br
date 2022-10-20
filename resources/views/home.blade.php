@@ -19,18 +19,26 @@
                 </div> -->
                 <div class="square_presentation">
                     <div class="text_presentation">
-                        <div class="icon">1</div>
                         <h1>A Nova Bistec</h1>
                         <h2>Desde 1999, em constante evolução: </h2>
                         <p>
                             Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
+                        </p>
+                        <p>
+                            Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
+                        </p>
+                        <p>
+                            Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
+                        </p>
+                        <p>
+                            Juntos transformaremos o seu negócio!
                         </p>
                     </div>
                 </div>
                 <!-- <div class="image_presentation">
                     <img src="https://www.bistec.com.br/wp-content/uploads/2014/11/home-services-1024x746.png" alt="" width="410" height="380">
                 </div> -->
-                <div class="square_presentation">
+                <!-- <div class="square_presentation">
                     <div class="text_presentation">
                         <h1>A Nova Bistec</h1>
                         <h2>Desde 1999, em constante evolução: </h2>
@@ -38,7 +46,7 @@
                             Entregamos soluções em tecnologia que atendem a todas as necessidades da sua empresa, unindo o que há de mais inovador com um atendimento personalizado.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- PRODUTOS -->

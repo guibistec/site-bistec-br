@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
 
     header {
-        border-bottom: 3px solid #FFEF6C;
+        border-bottom: 1px solid #FFEF6C;
     }
     
     header .logo-bistec img:nth-child(1){

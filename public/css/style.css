@@ -215,7 +215,7 @@ a {
     width: auto;
     margin: auto;
     position: relative;
-    border-bottom: 2px solid #07305f;
+    border-bottom: 5px solid #07305f;
 }
 
 .banner-bistec img{
@@ -254,10 +254,11 @@ a {
 
 .bistec_presentation {
     background-color: #dcecfe;
-    padding: 1vh;
+    padding: 8vh 1vh;
     transform: skew(0deg, -2.5deg) translateY(-40px);
     z-index: -1;
     position: relative;
+    border-bottom: 5px solid #262525;
 }
 
 .container {
@@ -270,24 +271,8 @@ a {
     padding: 1.8em;
     background-color: #F3FAFA;
     border-radius: 0.4em;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
     overflow: hidden;
-}
-
-.text_presentation .icon {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    color: #fff;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 50%;
-    font-size: 40px;
-    font-weight: 700;
-    transition: 1s;
 }
 
 .text_presentation:nth-child(1){
@@ -318,6 +303,7 @@ a {
     align-items: center;
     justify-content: center;
     max-width: 90%;
+    margin-top: -10px;
 }
 .bistec-produtos img{
     aspect-ratio: attr(width) / attr(height);
