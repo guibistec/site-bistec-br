@@ -99,7 +99,7 @@
         display: none;
     } */
 
-    .support_icon {
+    .button_icon {
         background: none;
         padding: 5px 0;
         padding-left: 20px;
@@ -107,7 +107,6 @@
 
     .button_support {
         width: 100%;
-        margin-top: 340px;
         display: block;
         height: 45px;
         font-size: 16px;
@@ -115,7 +114,16 @@
         background: #0c407c;
     }
 
-    .button_support:hover {
+    .button {
+        width: 100%;
+        display: block;
+        height: 45px;
+        font-size: 16px;
+        border-radius: 0;
+        background: #0F5A20;
+    }
+
+    .button_support:hover, .button_support:hover > .support_icon {
       background: #141414;
     }
 
@@ -155,6 +163,12 @@
         font-size: 6.3vw;
     }
 
+    /* parte apresentação */
+
+    .bistec_presentation .container {
+        max-width: 95%;
+    }
+
     /* produtos */
 
     .bistec-produtos {
@@ -162,6 +176,10 @@
         text-align: center;
         max-width: 100%;
         padding: 0;
+    }
+
+    .bistec-produtos a img {
+        margin: auto;
     }
 
     .bistec-produtos img {

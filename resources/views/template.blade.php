@@ -66,8 +66,8 @@
 
             <li>
                 <a href="https://www.cupomfiscaleletronico.com.br/" target="_blank">
-                    <div class="button">
-                        <span class="button_icon"><ion-icon name="cart-outline"></ion-icon></span>
+                    <div class="button button_store">
+                        <span class="button_icon store_icon"><ion-icon name="cart-outline"></ion-icon></span>
                         <span class="button_text">LOJA</span>
                     </div>
                 </a>

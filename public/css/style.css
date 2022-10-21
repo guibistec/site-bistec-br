@@ -127,7 +127,7 @@ header ul :hover > ul{
 	display: inline-flex;
 	align-items: center;
 	padding: 0 10px;
-	color: #FFEF6C;
+	color: #FFEF8F;
     height: 100%;
 }
 
@@ -305,6 +305,7 @@ a {
     max-width: 90%;
     margin-top: -10px;
 }
+
 .bistec-produtos img{
     aspect-ratio: attr(width) / attr(height);
     width: auto;

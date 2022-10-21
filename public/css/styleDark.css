@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
 
     header {
-        border-bottom: 1px solid #FFEF6C;
+        border-bottom: 1px solid #FFEF8F;
     }
     
     header .logo-bistec img:nth-child(1){
@@ -36,11 +36,6 @@
         color: #141414;
     }
 
-    .button_text,
-    .button_icon {
-    	color: #141414;
-    }
-
     .button_icon {
         border-right: 1px solid #141414;
         background-color: #a0c8f9;
@@ -53,7 +48,7 @@
 
     .normal, 
     .normal ion-icon {
-        color: #FFEF6C;
+        color: #FFEF8F;
     }
     .normal::after{
         content: '';
@@ -62,7 +57,7 @@
         left: 50%;
         width: 0%;
         height: 2.5px;
-        background-color: #FFEF6C;
+        background-color: #FFEF8F;
         transition: 0.2s;
     } 
     
@@ -83,6 +78,11 @@
     
     .normal-submenu ion-icon {
         color: #f3fafa;
+    }
+
+    .button_text,
+    .button_icon {
+        color: #141414;
     }
 
     .menu-cell {
@@ -312,11 +312,47 @@
 
 }
 
+@media (prefers-color-scheme: dark) and (min-width:621px) and (max-width: 950px){
+    .button_store .button_text {
+        color: #FFEF8F;
+    }
+    
+    .button_store, .button_store .button_icon {
+        background: #0F5A20;
+        color: #FFEF8F;
+        border-right: none;
+    }
+
+    .button_support,
+    .support_icon {
+        background: #0c407c;
+        color: #FFEF8F;
+        border-right: none;
+    }
+
+    .button_store:hover, .button_store:hover > .store_icon {
+        background: #141414;
+        color: #FFEF8F;
+    }
+
+    .button_support:hover{
+        background: #141414;
+    }
+
+    .button_support .button_text {
+        color: #FFEF8F;
+    }
+}
+
 @media (prefers-color-scheme: dark) and (max-width: 620px) {
 
     .menu-cell {
         display: block;
         color: #fff;
+    }
+
+    .button_store .button_text {
+        color: #FFEF8F;
     }
 
     .menu-cell li ion-icon {
@@ -332,19 +368,35 @@
 
     .normal:hover{
         border: none;
-        color: #A0C8F9;
+        color: #f3fafa;
         transition: 0.2s;
     } 
 
     .button_support,
     .support_icon {
         background: #0c407c;
-        color: #f3fafa;
+        color: #FFEF8F;
         border-right: none;
     }
 
+    .button_store, .button_store .button_icon {
+        background: #0F5A20;
+        color: #FFEF8F;
+        border-right: none;
+    }
+
+
+    .button_store:hover, .button_store:hover > .store_icon {
+        background: #141414;
+        color: #FFEF8F;
+    }
+
+    .button_support:hover{
+        background: #141414;
+    }
+
     .button_support .button_text {
-        color: #f3fafa;
+        color: #FFEF8F;
     }
 
     .texto-produtos .button_text {
