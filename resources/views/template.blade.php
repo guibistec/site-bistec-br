@@ -32,8 +32,8 @@
 <body>
     <header class="header-bistec" id="#first_section">
         <a href="#first_section" class="logo-bistec">
-            <img src="https://ik.imagekit.io/bistecpt/imagens/logo-bistec_zdIOSH6aM.png?tr=w-300,h-102" alt="Logo - Bistec" width="90.666" height="84.375">
-            <img src="https://ik.imagekit.io/bistecpt/imagens/logo_bistec_branco_-eLBgM6N7P.png?tr=w-300,h-102" alt="Logo Branca - Bistec" width="300" height="102">
+            <img src="https://ik.imagekit.io/bistecbr/logo-bistec.png" alt="Logo - Bistec" width="90" height="84">
+            <img src="https://ik.imagekit.io/bistecbr/logo_bistec_branco.png" alt="Logo Branca - Bistec" width="300" height="102">
         </a>
         <ul class="normal-menu">
             <li>
