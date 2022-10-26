@@ -148,11 +148,11 @@
         display: inherit;
     }
     article {
-        background-color: #1c1c1c;
+        background-color: #202124;
     }
     
     .bistec-produtos {
-        background-color: #1c1c1c;
+        background-color: #202124;
         color: #f3fafa;
     }
 
@@ -257,7 +257,6 @@
     /* páginas de portefólio */
 
     .produto-texto {
-        background-color: #141414;
         color: #f3fafa;        
     }
 

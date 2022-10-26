@@ -169,6 +169,10 @@
         max-width: 95%;
     }
 
+    .section_button_presentation {
+        transform: skew(0deg, 1.25deg);
+    }
+
     /* produtos */
 
     .bistec-produtos {

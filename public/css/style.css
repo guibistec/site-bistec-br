@@ -295,10 +295,19 @@ a {
     font-weight: 400;
 }
 
-.button_presentation {
-    
+.section_button_presentation {
+    transform: skew(0deg, 2.5deg);
+    display: flex;
 }
 
+.button_presentation {
+    background-color: #141414;
+    color: #fff;
+    padding: 1em;
+    border-radius: 0.4em;
+    align-items: center;
+    z-index: 2;
+}
 /*---PRODUTOS------------------------------------*/
 .bistec-produtos{
     padding: 0.5vw;

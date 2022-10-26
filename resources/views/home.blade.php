@@ -35,6 +35,8 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="section_button_presentation">
                 <a href="https://bistec.com.pt" class="button_presentation">Conheça também Bistec Portugal!</a>
             </div>
         </section>
