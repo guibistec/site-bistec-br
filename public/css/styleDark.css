@@ -48,7 +48,7 @@
 
     .normal, 
     .normal ion-icon {
-        color: #FFEF8F;
+        color: #a0c8f9;
     }
     .normal::after{
         content: '';
@@ -57,7 +57,7 @@
         left: 50%;
         width: 0%;
         height: 2.5px;
-        background-color: #FFEF8F;
+        background-color: #a0c8f9;
         transition: 0.2s;
     } 
     
@@ -108,6 +108,12 @@
         background-color: #A0C8F9;
         color: #000;
         box-shadow: 0 5px 15px rgba(183, 183, 183, 0.1);
+    }
+
+    .button_presentation {
+        background: #c5dfff;
+        color: #000;
+        transform: skew(0deg, -1.5deg);
     }
 
     /* produtos */
@@ -195,7 +201,7 @@
     .formulario2 {
         background: linear-gradient(135deg, #1c1c1c, #000);
         color: #fff;
-        border: 4px solid #a0c8f9;
+        border: 4px solid linear-gradient(135deg, #f3fafa, #e3e7e7);
     }
 
     input, textarea {
@@ -262,6 +268,31 @@
 
     .produto-texto .link_msp {
         color: #8bc2f1;
+    }
+    /*bistec cloud*/
+    .nice_button {
+        border: 3px solid white;
+        padding: 1em;
+        display: flex;
+        width: 40%;
+        text-align: center;
+        justify-content: center;
+        border-radius: 20em;
+    }
+    
+    p .nice_button {
+        background-color: #202124;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 1em;
+    }
+    
+    .nice_button:hover, .nice_button:focus-within {
+        background-color: white;
+        color: #202124;
+        transition: 0.8s;
+        border: 3px solid #202124;
     }
 
     /*pág bistec edu*/
