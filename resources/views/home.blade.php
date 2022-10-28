@@ -104,5 +104,9 @@
                 <img src="{{$xmlwhite}}" alt="Bistec XML" width="610" height="210">
             </a>
         </section>
+
+        <section class="bistec_tour">
+            <a href="" class="bistec_button_tour">Visite a Bistec pelo seu navegador em um tour virtual.</a>
+        </section>
     </article>
 @stop

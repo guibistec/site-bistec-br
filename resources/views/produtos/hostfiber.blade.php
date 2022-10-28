@@ -9,7 +9,7 @@
 <article id="first_section">
         <!-- banner -->
         <section class="banner-bistec">
-            <!-- <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-ged-intro.jpg" alt="Imagem de fundo do produto Bistec Cloud"> -->
+            <img src="https://ik.imagekit.io/bistecbr/hostfiber.jpg" alt="Imagem de fundo do Hostfiber"> 
             <!--<div class="banner-bistec-texto">
                 <h1>Bistec Portugal</h1>
                 <h2>Serviços em tecnologia para todas as empresas</h2>
@@ -20,23 +20,15 @@
         <div class="produto-texto">
             <h1>HostFiber – Fibra Óptica</h1>
             <p>
-                Constantemente, a implementação de um software de gestão acaba por falhar, porque não é dada a atenção necessária ao profissional que utilizará a ferramenta no dia-a-dia. Para evitar este tipo de situação, o Bistec Edu fornece formação para toda a sua equipa explorar 100% da capacidade das soluções adquiridas.
+                A HostFiber opera backbone 100% em fibra óptica com mais de 3.000km de extensão e presença em 108 cidades do estado de São Paulo.
             </p>
 
             <p>
-                Muitas vezes a implantação de um software de gestão fracassa porque não é dada a atenção necessária ao profissional que irá, de facto, fazer uso da ferramenta no dia a dia: o utilizador.
+                Infraestrutura de ponta, gestão com foco na qualidade e valorização do potencial humano são diferenciais que mantém a HostFiber em posição de destaque no mercado.
             </p>
 
             <p>
-                Por isso, um dos aspetos mais importantes é a questão  da formação. Quando o utilizador não recebe formação adequada não faz um bom uso da ferramenta e sente-se frustrado. Como resultado, ele pode passar a evitar o uso do software, voltando a executar tarefas da maneira como fazia antes da implementação.
-            </p>
-
-            <p>
-                O ideal é que o utilizador receba formação constante (ou por um período maior), de forma personalizada, que lhe permita aprender a utilizar todos os recursos do software de gestão da melhor maneira possível. Este comprometimento com o utilizador gera resultados extremamente benéficos para a empresa, principalmente quanto à valorização do investimento realizado.
-            </p>
-
-            <p>
-                Temos profissionais com mais de 25 anos de experiência académica. Formadores com CCP (Certificado de Competências Pedagógicas), e-Formadores e educadores certificados Google nível 1.
+                Ainda restam dúvidas sobre qual solução adquirir? <a class="link_msp" target="_blank" href="https://api.whatsapp.com/send?phone=5513992101945&text=Ol%C3%A1,%20estou%20com%20uma%20d%C3%BAvida%20sobre%20a%20solu%C3%A7%C3%A3o%20Bistec%20MSP">Converse com um de nossos atendentes sobre a solução Hostfiber</a>
             </p>
         </div>
     </article>
