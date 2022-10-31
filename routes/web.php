@@ -70,6 +70,10 @@ Route::get('/contato', function () {
     return view('contato');
 });
 
+Route::get('/tour', function () {
+    return view('tour');
+});
+
 Route::get('/produtos/automacao', function () {
     return view('produtos/automacao');
 });

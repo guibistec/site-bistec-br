@@ -303,7 +303,7 @@ a {
 }
 
 .button_presentation {
-    background: linear-gradient(135deg, #10588c, #07305f);
+    background: linear-gradient(135deg, #07305f, #042244);
     color: #fff;
     font-weight: 600;
     padding: 1em;
@@ -374,7 +374,7 @@ a {
 /*section tour */
 
 .bistec_tour {
-    background-color: #f3fafa;
+    background-color: #F3FAFA;
     margin: auto;
     padding: 5em 10em;
     display: flex;
@@ -383,7 +383,7 @@ a {
 .bistec_button_tour {
     margin: auto;
     align-items: center;
-    background-color: #001E42;
+    background: linear-gradient(135deg, #10588c, #042244);
     padding: 1em;
     color: #fff;
     font-weight: 600;
