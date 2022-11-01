@@ -383,11 +383,19 @@ a {
 .bistec_button_tour {
     margin: auto;
     align-items: center;
-    background: linear-gradient(135deg, #10588c, #042244);
+    background: linear-gradient(135deg, #07305f, #042244);
     padding: 1em;
     color: #fff;
     font-weight: 600;
     border-radius: 0.4em;
+}
+
+.bistec_button_tour:hover, .bistec_button_tour:focus-within, .button_presentation:hover, .button_presentation:focus-within {
+    background: linear-gradient(135deg, #10588c, #042244);
+}
+
+.bistec_button_tour:active, .button_presentation:active {
+    background: linear-gradient(135deg, #186094, #073161);
 }
 /*--RODAPÉ---------------------------------------------*/
 footer{

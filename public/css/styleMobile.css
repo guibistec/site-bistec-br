@@ -205,19 +205,14 @@
         font-size: 4.2vw;
         font-weight: 400;
     }
-    
-    .bt-dialog {
-        padding: 10px 10px;
-        margin: auto;
-        margin-top: 2vh;
-        height: auto;
+
+    /*tour*/
+
+    .bistec_tour {
+        padding: 4em;
         text-align: center;
     }
     
-    .bt-dialog .button_text {
-        font-size: 3vh;
-    }
-
     /* rodapé */
 
     footer {

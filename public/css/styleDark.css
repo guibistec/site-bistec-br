@@ -99,7 +99,7 @@
     .bistec_presentation {
         z-index: inherit;
         margin-top: 3vh;
-        background-color: #141414;
+        background-color: #202124;
         transform: skew(0deg, -1.5deg) translateY(-40px);
         border-top: 5px solid #a0c8f9;
         border-bottom: 5px solid #a0c8f9;
@@ -123,6 +123,14 @@
         background: linear-gradient(#FFEF8F, #ecd345);
         color: #000;
         transform: skew(0deg, +1.5deg);
+    }
+
+    .bistec_button_tour:hover, .bistec_button_tour:focus-within, .button_presentation:hover, .button_presentation:focus-within {
+        background: linear-gradient(135deg, #fff09a, #f3da4c);
+    }
+    
+    .bistec_button_tour:active, .button_presentation:active {
+        background: linear-gradient(135deg, #fff3ad, #fae154);
     }
 
     /* produtos */
@@ -163,35 +171,18 @@
         display: inherit;
     }
     article {
-        background-color: #202124;
+        background-color: #141414;
     }
     
     .bistec-produtos {
-        background-color: #202124;
+        background-color: #141414;
         color: #f3fafa;
-    }
-
-    .bt-dialog {
-        background-color: #A0C8F9;
-    }
-
-    .texto-produtos .button_text {
-        color: #141414;
-      }
-
-    .bt-dialog:hover {
-        background: #add1fd;
-        transition: 0.4s;
-    }
-
-    .bt-dialog:focus-within {
-        background-color: #f3fafa;
     }
 
     /*section tour*/
 
     .bistec_tour {
-        background-color: #1c1d1f;
+        background-color: #141414;
     }
 
     .bistec_button_tour {
