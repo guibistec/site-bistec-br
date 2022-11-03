@@ -60,7 +60,6 @@
                     <li><a href="/produtos/voip"> <ion-icon name="call"></ion-icon> BISTEC VOIP</a></li>
                     <li><a href="/produtos/wifi"> <ion-icon name="wifi-sharp"></ion-icon>BISTEC WIFI</a></li>
                     <li><a href="/produtos/xml"> <ion-icon name="document"></ion-icon> BISTEC XML</a></li>
-                    <li><a href="/produtos/hostfiber"> <ion-icon name="globe-sharp"></ion-icon> HOSTFIBER - LINK INTERNET</a></li>
                 </ul>
             </li>
 

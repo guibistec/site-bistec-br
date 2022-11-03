@@ -23,14 +23,14 @@
                 Guarde os seus arquivos com segurança. Nenhum sistema é 100% seguro, faça BACKUP.
             </p>
             <p>
-                - Backup (cópia dos arquivos realizada de forma automática, sem custos de investimentos em infraestrutura).
+                Backup (cópia dos arquivos realizada de forma automática, sem custos de investimentos em infraestrutura).
             </p>
             <p>
-                - Segurança (Garante a disponibilidade, confidencialidade e integridade dos seus arquivos).
+                Segurança (Garante a disponibilidade, confidencialidade e integridade dos seus arquivos).
             </p>
 
             <p>
-                - Elasticidade (Contrate mais espaço de armazenamento sempre que for necessário).
+                Elasticidade (Contrate mais espaço de armazenamento sempre que for necessário).
             </p>
 
             <p>

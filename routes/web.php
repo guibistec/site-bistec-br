@@ -134,7 +134,3 @@ Route::get('/produtos/wifi', function () {
 Route::get('/produtos/xml', function () {
     return view('produtos/xml');
 });
-
-Route::get('/produtos/hostfiber', function () {
-    return view('produtos/hostfiber');
-});
