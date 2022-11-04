@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://bistec.com.pt/" />
-    <meta property="og:locale" content="pt_PT" />
-    <meta property="og:title" content="Bistec PT - Automação Comercial" />
-    <meta property="og:site_name" content="Bistec PT" />
+    <meta property="og:url" content="https://bistec.com.br/" />
+    <meta property="og:title" content="Bistec BR - Automação Comercial" />
+    <meta property="og:site_name" content="Bistec BR" />
     <meta property="og:description" content="Bistec Consultoria de TI. Desde 1999 fornecendo produtos e serviços de Automação Comercial e Informática. Aproveite o melhor da tecnologia para seu negócio." />
 
     <meta property="og:image" content="https://bistec.com.pt/assets/images/tagline-vertical.png" />
@@ -27,7 +26,7 @@
     <link rel="stylesheet" href="/css/styleTelaQuadrada.css">
     <link rel="stylesheet" href="/css/styleTv.css">
     <link rel="stylesheet" href="/css/styleDark.css">
-    <link rel="icon" href="https://ik.imagekit.io/bistecpt/imagens/logo-bistec-favicon_qs5OCIyQ6.png">
+    <link rel="icon" href="https://ik.imagekit.io/bistecbr/simbolo.png">
 </head>
 <body>
     <header class="header-bistec" id="#first_section">
@@ -43,7 +42,7 @@
                 <a href="/contato" class="normal" >CONTATO</a>
             </li>
             <li>
-                <a href="#" class="normal">PORTFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
+                <a href="#" class="normal click_portfolio_mobile">PORTFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
                 <ul class="normal-submenu">
                     <li><a href="/produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
                     <li><a href="/produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
@@ -64,7 +63,7 @@
             </li>
 
             <li>
-                <a href="https://www.cupomfiscaleletronico.com.br/" target="_blank">
+                <a href="https://www.cupomfiscaleletronico.com.br/" target="_blank" class="store_support">
                     <div class="button button_store">
                         <span class="button_icon store_icon"><ion-icon name="cart-outline"></ion-icon></span>
                         <span class="button_text">LOJA</span>
@@ -72,7 +71,7 @@
                 </a>
             </li>
             <li>
-                <a href="/suporte">
+                <a href="/suporte" class="store_support">
                     <div class="button_support">
                         <span class="button_icon support_icon"><ion-icon name="headset-outline"></ion-icon></span>
                         <span class="button_text">SUPORTE</span>
