@@ -88,6 +88,14 @@
         padding: 0; */
     }
 
+    header ul :hover > ul{
+        display: none;
+    }
+
+    :focus-within > .normal-submenu {
+        display: none;
+    }
+
     /* .click_portfolio_mobile:active > .normal-submenu {
         display: block;
         transition: 0.5s;

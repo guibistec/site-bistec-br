@@ -60,6 +60,22 @@ Route::get('/', function () {
     'voip' => $voip, 'voipwhite' => $voipwhite,
     'wifi' => $wifi, 'wifiwhite' => $wifiwhite,
     'xml' => $xml, 'xmlwhite' => $xmlwhite]);
+
+    return view('portfolio', ['automacao' => $automacao, 'automacaowhite' => $automacaowhite, 
+    'cloud' => $cloud, 'cloudwhite' => $cloudwhite, 
+    'edu' => $edu, 'eduwhite' => $eduwhite, 
+    'ged' => $ged, 'gedwhite' => $gedwhite, 
+    'green' => $green, 'greenwhite' => $greenwhite,
+    'lgpd' => $lgpd, 'lgpdwhite' => $lgpdwhite, 
+    'msp' => $msp, 'mspwhite' => $mspwhite, 
+    'outsourcing' => $outsourcing, 'outsourcingwhite' => $outsourcingwhite, 
+    'pay' => $pay, 'paywhite' => $paywhite, 
+    'renting' => $renting, 'rentingwhite' => $rentingwhite,
+    'sign' => $sign, 'signwhite' => $signwhite, 
+    'soft' => $soft, 'softwhite' => $softwhite, 
+    'voip' => $voip, 'voipwhite' => $voipwhite,
+    'wifi' => $wifi, 'wifiwhite' => $wifiwhite,
+    'xml' => $xml, 'xmlwhite' => $xmlwhite]);
 });
 
 Route::get('/suporte', function () {
@@ -68,6 +84,10 @@ Route::get('/suporte', function () {
 
 Route::get('/contato', function () {
     return view('contato');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
 });
 
 Route::get('/tour', function () {

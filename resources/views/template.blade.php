@@ -42,7 +42,7 @@
                 <a href="/contato" class="normal" >CONTATO</a>
             </li>
             <li>
-                <a href="#" class="normal click_portfolio_mobile">PORTFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
+                <a href="/portfolio" class="normal click_portfolio_mobile">PORTFÓLIO <ion-icon name="chevron-down-outline"></ion-icon></a>
                 <ul class="normal-submenu">
                     <li><a href="/produtos/automacao"><ion-icon name="at-sharp"></ion-icon> BISTEC AUTOMAÇÃO</a></li>
                     <li><a href="/produtos/cloud"> <ion-icon name="cloud-done-sharp"></ion-icon> BISTEC CLOUD</a></li>
