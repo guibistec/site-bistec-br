@@ -143,7 +143,8 @@
         background: #0F5A20;
     }
 
-    .button_support:hover, .button_support:hover > .support_icon {
+    .button_support:hover, .button_support:hover > .support_icon,
+    .button:hover, .button:hover > .store_icon {
       background: #141414;
     }
 
@@ -151,13 +152,13 @@
     /* banner */
 
    /*PROVISÓRIO PARA CORREÇÃO DE DUPLICIDADE DE IMAGENS NAS OUTRAS PÁGINAS*/
-    .banner-bistec {
+    /* .banner-bistec {
         display: none;
-    }
-    /*para ignorar a index, provisório tbm*/
+    } */
+    /* para ignorar a index, provisório tbm
     #imagemUnica{
         display: block;
-    }
+    } */
     .banner-bistec-mobile {
         display: block;
         width: auto;
