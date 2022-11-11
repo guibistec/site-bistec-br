@@ -449,4 +449,8 @@
     .texto-produtos .button_text {
         color: #141414;
     }
+
+    .nice_button {
+        width: 65%;
+    }
 }

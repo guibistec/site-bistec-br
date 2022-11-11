@@ -5,10 +5,21 @@ const verificaTela = () => {
     x = w.innerWidth || e.clientWidth || g.clientWidth,
     y = w.innerHeight|| e.clientHeight|| g.clientHeight; 
     //IMAGENS
-    document.getElementById('img-banner').removeAttribute('src')
-    document.getElementById('img-banner').setAttribute('src',`https://ik.imagekit.io/bistecbr/banner_bistecbr.png?tr=w-${(x-20)*2},h-${y*2}`) //?tr=w-${ (x - 20) * 2 },h-${ y * 2 }
 
-    //RECOMPOE MENU AO ELTERAR TAMANHO DA TELA ENTRE MOBILE E OUTRO
+    if(window.matchMedia("(max-width: 950px)").matches) {
+        document.getElementById('img-banner').removeAttribute('src')
+        document.getElementById('img-banner').setAttribute('src',`https://ik.imagekit.io/bistecbr/banner_bistecbr.png?tr=w-${(x-1)*2},h-${y*0.78}`) //?tr=w-${ (x - 20) * 2 },h-${ y * 2 }
+    } else {
+        document.getElementById('img-banner').removeAttribute('src')
+        document.getElementById('img-banner').setAttribute('src',`https://ik.imagekit.io/bistecbr/banner_bistecbr.png?tr=w-${(x-20)*2},h-${y*2}`) //?tr=w-${ (x - 20) * 2 },h-${ y * 2 }
+    }
+
+    // if(!window.matchMedia("(min-width: 951px)").matches) {
+    //     document.getElementById('img-banner').removeAttribute('src')
+    //     document.getElementById('img-banner').setAttribute('src',`https://ik.imagekit.io/bistecbr/banner_bistecbr.png?tr=w-${(x-20)*2},h-${y*2}`) //?tr=w-${ (x - 20) * 2 },h-${ y * 2 }
+    // }
+
+    //RECOMPOE MENU AO ALTERAR TAMANHO DA TELA ENTRE MOBILE E OUTRO
     let menu = document.getElementsByClassName('normal-menu')[0]
     if(!window.matchMedia("(min-width: 951px)").matches)
         menu.style.display = 'none'

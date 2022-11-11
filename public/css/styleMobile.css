@@ -57,7 +57,7 @@
     .logo-bistec img {
         margin: 0; 
         width: 32vw;
-        margin-left: 5px;
+        margin-left: 15px;
     }
     
 
@@ -155,10 +155,15 @@
     /* .banner-bistec {
         display: none;
     } */
-    /* para ignorar a index, provisório tbm
+    /* para ignorar a index, provisório tbm */
     #imagemUnica{
         display: block;
-    } */
+    } 
+
+    .banner-bistec img {
+        margin-top: 63px;
+    }
+
     .banner-bistec-mobile {
         display: block;
         width: auto;
@@ -169,7 +174,7 @@
     .banner-bistec-mobile img{
         width: 100%;
         height: 85vh;
-        margin-top: 75px;
+        margin-top: 71px;
     }
 
     .banner-bistec-texto {    
@@ -178,16 +183,20 @@
         width: 90%;
     }  
     .banner-bistec-texto h1 {
-        font-size: 9.6vw;
+        font-size: 7.6vw;
     }
     .banner-bistec-texto h2 {
-        font-size: 6.3vw;
+        font-size: 5.3vw;
     }
 
     /* parte apresentação */
 
     .bistec_presentation .container {
         max-width: 95%;
+    }
+
+    .bistec_presentation {
+        padding-top: 15px;
     }
     /* produtos */
 
