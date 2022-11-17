@@ -1,4 +1,4 @@
-@extends('template')
+@extends('layouts.template')
 @section('corpo')
     <!-- CORPO -->
     <article id="first_section">

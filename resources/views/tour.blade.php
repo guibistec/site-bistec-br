@@ -1,5 +1,4 @@
-@extends('template')
-
+@extends('layouts.template')
 @section('style')
     <link rel="stylesheet" href="/css/styleTour.css">
 @stop
@@ -18,7 +17,8 @@
             </p>
 
             <p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235203.81500692177!2d-43.58841988251077!3d-22.9111720903467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio+de+Janeiro%2C+RJ!5e0!3m2!1spt-BR!2sbr!4v1476880758681" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.google.com/maps/@-23.9369261,-46.3219861,3a,75y,251.37h,62.1t/data=!3m6!1e1!3m4!1sAF1QipO-49G0q0-61WuB2NaHlb17WGvDt8Mfpu-U-m8!2e10!7i7220!8i3610" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                <iframe width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" data-src="https://www.google.com/maps/@-23.9369261,-46.3219861,3a,75y,251.37h,62.1t/data=!3m7!1e1!3m5!1sAF1QipO-49G0q0-61WuB2NaHlb17WGvDt8Mfpu-U-m8!2e10!3e12!7i7220!8i3610" class=" lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
             </p>
         </section>
     </article>

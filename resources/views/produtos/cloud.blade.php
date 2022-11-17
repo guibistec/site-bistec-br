@@ -1,4 +1,4 @@
-@extends('template')
+@extends('layouts.template')
 
 @section('style')
     <link rel="stylesheet" href="/css/styleProdutos.css">
@@ -8,7 +8,7 @@
 <!-- CORPO -->
 <article id="first_section">
         <!-- banner -->
-        <section class="banner-bistec banner-bistec-mobile">
+        <section class="banner-bistec">
             <img src="https://ik.imagekit.io/bistecbr/produtos/bistec-cloud-intro.jpg" alt="Imagem de fundo do produto Bistec Cloud">
             <!--<div class="banner-bistec-texto">
                 <h1>Bistec Portugal</h1>

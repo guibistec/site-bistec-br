@@ -23,7 +23,7 @@ header {
     width: 100%;
     display: flex;
     position: fixed;
-    padding: 2px 100px;
+    padding: 15px 100px;
     display: flex;
     z-index: 2;
 }

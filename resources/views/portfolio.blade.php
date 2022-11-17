@@ -1,5 +1,4 @@
-@extends('template')
-
+@extends('layouts.template')
 @section('style')
     <link rel="stylesheet" href="/css/stylePortfolio.css">
 @stop
