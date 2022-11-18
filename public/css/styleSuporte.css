@@ -73,6 +73,77 @@
     background-color: transparent;
 }
 
+/*whatsapp suporte*/
+
+.suporte_icons ion-icon{
+    color: #14b22c;
+    font-size: 5vh;
+    border-radius: 100%;
+    padding: 0.3em;
+}
+
+.suporte_icons a, .suporte_icons h5 {
+    margin: 2px;
+}
+
+/* .suporte_icons ion-icon:hover {
+    cursor: pointer;
+    background-color: #14b22c;
+    border: #14b22c solid 2px;
+    color: #ffffff;
+    transition: 0.7s;
+} */
+
+.suporte_icons {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3fafa;
+    border-radius: 30em;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    max-width: 60%;
+    border: #14b22c solid 2px;
+}
+
+.suporte_icons:hover {
+    background-color: #14b22c;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.suporte_icons h5, .suporte_icons2 h5 {
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+ion-icon:hover {
+    color: #ffffff;
+}
+
+/*telegram suporte*/
+
+
+.suporte_icons2 ion-icon{
+    color: #1d93d2;
+    font-size: 5vh;
+    border: #1d93d2 solid 2px;
+    border-radius: 100%;
+    padding: 0.3em;
+    margin: 0.3em auto;
+}
+
+.suporte_icons2 a:focus-within > ion-icon {
+    cursor: pointer;
+    background-color: #1d93d2;
+    color: #262525;
+    transition: 0.7s;
+}
+.suporte_icons2 ion-icon:hover {
+    cursor: pointer;
+    background-color: #1d93d2;
+    color: #ffffff;
+    transition: 0.7s;
+}
+
 @media (max-width: 620px) {
 
     .bistec-suporte h1 {

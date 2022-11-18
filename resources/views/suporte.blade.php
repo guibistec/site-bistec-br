@@ -23,7 +23,20 @@
                 <a href="http://download.teamviewer.com/download/TeamViewerQS_pt.exe" class="button_text">DOWNLOAD TEAMVIEWER</a>                   
             </div>
 
-            <p>Fale conosco também pelo <strong><a class="suporte-wpp" href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank">WhatsApp Business no +55 13 4042-0777</a></strong> ou pelo <strong><a href="https://t.me/BISTEC_BOT" target="_blank" class="suporte-telegram">Telegram – Procure por Atendimento BISTEC.</a></strong> </p>
+            <!-- <p>Fale conosco também pelo <strong><a class="suporte-wpp" href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank">WhatsApp Business no +55 13 4042-0777</a></strong> ou pelo <strong><a href="https://t.me/BISTEC_BOT" target="_blank" class="suporte-telegram">Telegram – Procure por Atendimento BISTEC.</a></strong> </p> -->
+
+            <p>
+                <div class="suporte_icons">
+                   <a class="icon_wpp_support" href="https://api.whatsapp.com/send?phone=5513992101945" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <h5>Suporte Técnico pelo Whatsapp</h5>
+                </div>
+
+                <div class="suporte_icons2">
+                   <a class="icon_telegram_support"href="https://t.me/BISTEC_BOT" target="_blank"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                    <h5>Suporte Técnico pelo Telegram</h5>
+                </div>
+            </p>
+        
         </section>
     </article>
 @stop
