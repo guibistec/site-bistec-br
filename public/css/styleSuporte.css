@@ -79,11 +79,8 @@
     color: #14b22c;
     font-size: 5vh;
     border-radius: 100%;
-    padding: 0.3em;
-}
-
-.suporte_icons a, .suporte_icons h5 {
-    margin: 2px;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
 }
 
 /* .suporte_icons ion-icon:hover {
@@ -96,12 +93,16 @@
 
 .suporte_icons {
     display: flex;
-    justify-content: space-between;
     background-color: #f3fafa;
     border-radius: 30em;
     box-shadow: 0 5px 25px rgba(0,0,0,.1);
-    max-width: 60%;
+    max-width: 55%;
     border: #14b22c solid 2px;
+    cursor: pointer;
+}
+
+.icon_wpp_support {
+    margin: 0;
 }
 
 .suporte_icons:hover {
@@ -111,8 +112,16 @@
 }
 
 .suporte_icons h5, .suporte_icons2 h5 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 800;
+    line-height: 2.9em;
+    margin: 0;
+    margin-left: 0.7em;
+}
+
+.suporte_icons:hover > a ion-icon {
+    color: #fff;
+    transition: 0.8s;
 }
 
 ion-icon:hover {
@@ -121,27 +130,38 @@ ion-icon:hover {
 
 /*telegram suporte*/
 
+.suporte_icons2 {
+    display: flex;
+    background-color: #f3fafa;
+    border-radius: 30em;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    max-width: 55%;
+    border: #1d93d2 solid 2px;
+    cursor: pointer;
+    margin-top: 2em;
+}
 
 .suporte_icons2 ion-icon{
     color: #1d93d2;
     font-size: 5vh;
-    border: #1d93d2 solid 2px;
     border-radius: 100%;
-    padding: 0.3em;
-    margin: 0.3em auto;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
 }
 
-.suporte_icons2 a:focus-within > ion-icon {
-    cursor: pointer;
-    background-color: #1d93d2;
-    color: #262525;
-    transition: 0.7s;
+.icon_telegram_support {
+    margin: 0;
 }
-.suporte_icons2 ion-icon:hover {
-    cursor: pointer;
+
+.suporte_icons2:hover {
     background-color: #1d93d2;
-    color: #ffffff;
-    transition: 0.7s;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.suporte_icons2:hover > a ion-icon {
+    color: #fff;
+    transition: 0.8s;
 }
 
 @media (max-width: 620px) {
@@ -170,4 +190,20 @@ ion-icon:hover {
     .bt-dialog-anydesk {
         max-width: 60%;
     }
+
+    .suporte_icons ion-icon, .suporte_icons2 ion-icon {
+        padding-top: 0.1em;
+        padding-left: 0.3em;
+    }
+
+    .suporte_icons, .suporte_icons2 {
+        max-width: 100%;
+    }
+
+    .suporte_icons h5, .suporte_icons2 h5{
+        font-size: 0.9em;
+        margin: 0;
+        margin-left: 0.5em;
+    }
+
 }
