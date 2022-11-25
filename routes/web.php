@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,6 +67,14 @@ Route::get('/suporte', function () {
     return view('suporte');
 });
 
+/*Route::get('/contato', array('as' => 'contato', 'uses' =>'HomeController@contato'),function () {
+    return view('contato');
+});
+
+Route::post('/contato', 'HomeController@postContato',function () {
+    return view('contato');
+});*/
+
 Route::get('/contato', function () {
     return view('contato');
 });
@@ -73,6 +82,13 @@ Route::get('/contato', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+
+Route::post('/enviaContato','App\Http\Controllers\ControllerContato@enviaMsg');
+
+Route::post('/email', function (Request $request) {
+    dd($request->all());
+});
+
 
 Route::get('/tour', function () {
     return view('tour');

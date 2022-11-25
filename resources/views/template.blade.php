@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="/css/styleTelaQuadrada.css">
     <link rel="stylesheet" href="/css/styleTv.css">
     <link rel="stylesheet" href="/css/styleDark.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="https://ik.imagekit.io/bistecpt/imagens/logo-bistec-favicon_qs5OCIyQ6.png">
 </head>
 <body>
