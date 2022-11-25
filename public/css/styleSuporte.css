@@ -16,6 +16,7 @@
     font-size: 2vw;
     padding: 1.75vh 0;
     background-color: transparent;
+    margin: 1vh;
 }
 
 .bistec-suporte .button_text {
@@ -29,7 +30,7 @@
 .bt-dialog-anydesk {    
 	background-color: #A62923;
     align-items: center;
-    padding: 2vw 2vw;
+    padding: 1vw;
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
@@ -46,14 +47,13 @@
 .bt-dialog-teamviewer {    
 	background-color: #0859A1;
     align-items: center;
-    padding: 2vw 2vw;
+    padding: 1vw;
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
 	border: none;
 	outline: none;
     font-weight: 700;
-    margin-bottom: 1vw;
     max-width: 40%;
 }
 
@@ -99,6 +99,7 @@
     max-width: 55%;
     border: #14b22c solid 2px;
     cursor: pointer;
+    margin-top: 5vh;
 }
 
 .icon_wpp_support {
@@ -164,7 +165,11 @@ ion-icon:hover {
     transition: 0.8s;
 }
 
-@media (max-width: 620px) {
+@media (min-width: 335px) and (max-width: 620px) {
+
+    .bistec-suporte {
+        max-width: 100%;
+    }
 
     .bistec-suporte h1 {
         font-size: 7vw;
@@ -173,7 +178,12 @@ ion-icon:hover {
 
     .bistec-suporte p {
         font-size: 4.8vw;
-        padding: 1.75vh 0;
+        padding: 1vh 0;
+    }
+
+    .bt-dialog-anydesk, .bt-dialog-teamviewer {
+        padding: 2vw;
+        max-width: 65%;
     }
 
     footer {
@@ -184,26 +194,69 @@ ion-icon:hover {
         margin: 0.3em auto;
     }
 
-    .bt-dialog-teamviewer {
-        max-width: 60%;
-    }
-    .bt-dialog-anydesk {
-        max-width: 60%;
-    }
-
     .suporte_icons ion-icon, .suporte_icons2 ion-icon {
-        padding-top: 0.1em;
+        padding-top: 0.2em;
         padding-left: 0.3em;
     }
 
     .suporte_icons, .suporte_icons2 {
-        max-width: 100%;
+        max-width: 85%;
+        justify-content: space-evenly;
     }
 
     .suporte_icons h5, .suporte_icons2 h5{
         font-size: 0.9em;
         margin: 0;
-        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
+}
+
+@media (max-width: 334px) {
+    .bistec-suporte {
+        max-width: 100%;
+    }
+
+    .bistec-suporte h1 {
+        font-size: 7vw;
+        padding-top: 10vh;
+    }
+
+    .bistec-suporte p {
+        font-size: 4.8vw;
+        padding: 1.25vh 0;
+    }
+
+    .bt-dialog-anydesk, .bt-dialog-teamviewer {
+        padding: 2vw;
+        max-width: 65%;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    footer ion-icon {
+        margin: 0.3em auto;
+    }
+
+    .suporte_icons ion-icon, .suporte_icons2 ion-icon {
+        padding-top: 0.2em;
+        padding-left: 0.3em;
+    }
+
+    .suporte_icons, .suporte_icons2 {
+        max-width: 85%;
+        justify-content: space-evenly;
+    }
+
+    .suporte_icons h5, .suporte_icons2 h5{
+        font-size: 0.9em;
+        margin: 0;
+        margin-right: 0.5em;
+    }
+
+    .suporte_icons, .suporte_icons2 {
+        max-width: 95%;
+    }
 }
