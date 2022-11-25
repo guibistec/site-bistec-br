@@ -1,4 +1,40 @@
-@media (min-width: 951px) and (max-width: 1219px){
+@media (min-width: 1025px) and (max-width: 1219px){
+    
+    .header-bistec {
+        padding: 15px 100px;
+    }
+
+    .container {
+        max-width: 58%;
+    }
+
+    .text_presentation {
+        padding: 2.8em;
+    }
+
+    .redes-sociais {
+        max-width: 80%;
+    }
+
+    footer ion-icon {
+        padding: 8px;
+        font-size: 4vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .header-bistec {
+        padding: 2px 100px;
+    }
+
+    .container {
+        max-width: 65%;
+    }
+
+    .text_presentation {
+        padding: 2.8em;
+    }
+
     .redes-sociais {
         max-width: 80%;
     }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @extends('template')
+=======
+@extends('layouts.template')
+>>>>>>> gui-laravel1
 
 @section('style')
     <link rel="stylesheet" href="/css/styleContato.css">
@@ -43,8 +47,7 @@
                 <div class="campos">
                             <h1>Endereço</h1>
                             <p>Rua Amador Bueno, 333, Sala 501 - Centro – Santos, SP</p>
-                            <p>CEP 11013-153</p>
-                            <p><em>Estacionamento no local com acesso à recepção</em></p>
+                            <p>CEP 11013-153 - <em>Estacionamento no local com acesso à recepção</em></p>
                 </div> 
             </div>
         </div>
