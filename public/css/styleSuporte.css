@@ -30,7 +30,7 @@
 .bt-dialog-anydesk {    
 	background-color: #A62923;
     align-items: center;
-    padding: 1vw;
+    padding: 1.2vw;
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
@@ -40,6 +40,10 @@
     max-width: 40%;
 }
 
+.bistec-suporte p:last-child {
+    margin-top: 4vh;
+}
+
 .bt-dialog-anydesk:hover {
 	background-color: #9b1d16;
 }
@@ -47,7 +51,7 @@
 .bt-dialog-teamviewer {    
 	background-color: #0859A1;
     align-items: center;
-    padding: 1vw;
+    padding: 1.2vw;
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
@@ -71,98 +75,6 @@
     color: #08457a;
     text-decoration: underline;
     background-color: transparent;
-}
-
-/*whatsapp suporte*/
-
-.suporte_icons ion-icon{
-    color: #14b22c;
-    font-size: 5vh;
-    border-radius: 100%;
-    padding-top: 0.3em;
-    padding-left: 0.5em;
-}
-
-/* .suporte_icons ion-icon:hover {
-    cursor: pointer;
-    background-color: #14b22c;
-    border: #14b22c solid 2px;
-    color: #ffffff;
-    transition: 0.7s;
-} */
-
-.suporte_icons {
-    display: flex;
-    background-color: #f3fafa;
-    border-radius: 30em;
-    box-shadow: 0 5px 25px rgba(0,0,0,.1);
-    max-width: 55%;
-    border: #14b22c solid 2px;
-    cursor: pointer;
-    margin-top: 5vh;
-}
-
-.icon_wpp_support {
-    margin: 0;
-}
-
-.suporte_icons:hover {
-    background-color: #14b22c;
-    color: #fff;
-    transition: 0.8s;
-}
-
-.suporte_icons h5, .suporte_icons2 h5 {
-    font-size: 1.2em;
-    font-weight: 800;
-    line-height: 2.9em;
-    margin: 0;
-    margin-left: 0.7em;
-}
-
-.suporte_icons:hover > a ion-icon {
-    color: #fff;
-    transition: 0.8s;
-}
-
-ion-icon:hover {
-    color: #ffffff;
-}
-
-/*telegram suporte*/
-
-.suporte_icons2 {
-    display: flex;
-    background-color: #f3fafa;
-    border-radius: 30em;
-    box-shadow: 0 5px 25px rgba(0,0,0,.1);
-    max-width: 55%;
-    border: #1d93d2 solid 2px;
-    cursor: pointer;
-    margin-top: 2em;
-}
-
-.suporte_icons2 ion-icon{
-    color: #1d93d2;
-    font-size: 5vh;
-    border-radius: 100%;
-    padding-top: 0.3em;
-    padding-left: 0.5em;
-}
-
-.icon_telegram_support {
-    margin: 0;
-}
-
-.suporte_icons2:hover {
-    background-color: #1d93d2;
-    color: #fff;
-    transition: 0.8s;
-}
-
-.suporte_icons2:hover > a ion-icon {
-    color: #fff;
-    transition: 0.8s;
 }
 
 @media (min-width: 335px) and (max-width: 620px) {

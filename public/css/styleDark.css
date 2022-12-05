@@ -255,10 +255,12 @@
 
     .bt-dialog-anydesk {
         background-color: #FF8277;
+        color: black;
     }
 
     .bt-dialog-teamviewer {
         background-color: #a0c8f9;
+        color: black;
     }
 
     .bt-dialog-anydesk:hover {
