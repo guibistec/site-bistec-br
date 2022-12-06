@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+@extends('template')
+=======
 @extends('layouts.template')
+>>>>>>> gui-laravel1
 
 @section('style')
     <link rel="stylesheet" href="/css/styleContato.css">
@@ -6,9 +10,24 @@
 
 @section('corpo')
 <!-- CORPO -->
+
+@if(session('mensagem'))
+ <div>
+    <p>{{session('mensagem')}}</p>
+ </div>
+@endif
+
 <article id="first_section" class="article_contact">
         <div class="formulario2">
-            <form action="email/" method="POST" id="formContato">
+           @if(session('mensagem'))
+            <div>
+              <p>{{session('mensagem')}}</p> 
+            </div>
+           @endif   
+
+
+            <form name="frmContato" method="POST" id="frmContato" method="POST" action="{{url('enviaContato')}}" >
+                {{ csrf_field() }}
                 <div class="campos">
                     <h1>Formulário para Contato</h1>
                     <label>Nome completo:</label><br>
