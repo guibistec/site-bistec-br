@@ -44,7 +44,8 @@
     margin-top: 4vh;
 }
 
-.bt-dialog-anydesk:hover {
+.bt-dialog-anydesk:hover,
+.bt-dialog-anydesk:focus-within {
 	background-color: #9b1d16;
 }
 
@@ -61,7 +62,8 @@
     max-width: 40%;
 }
 
-.bt-dialog-teamviewer:hover {
+.bt-dialog-teamviewer:hover,
+.bt-dialog-teamviewer:focus-within {
 	background-color: #095191;
 }
 
