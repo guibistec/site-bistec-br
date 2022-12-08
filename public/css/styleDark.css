@@ -364,6 +364,13 @@
         color: rgb(255, 81, 81);
         opacity: 0.8;
     }
+
+/* página de tour */
+
+.bistec_tour_page {
+    color: #fff;
+}
+
 /*páginas de erro 404*/
 
 .bistec-error404, .bistec-error404 strong a {
